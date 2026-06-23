@@ -1,0 +1,78 @@
+[0.016s] Invoking command in '/home/rakmo/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/pubsub_test/build/loc_pubsub -- -j22 -l22
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target transmitter[0m
+[0.069s] [ 16%] [32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target loc_listener[0m
+[0.078s] [ 33%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o[0m
+[2.286s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:18:44:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[2.286s]    18 |         void callback(const std_msgs::msg::[01;31m[KPoint[m[K &msg) const{
+[2.286s]       |                                            [01;31m[K^~~~~[m[K
+[2.325s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:23:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.325s]    23 | }
+[2.325s]       |  [01;31m[K^[m[K
+[2.325s]       |  [32m[K;[m[K
+[2.325s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:[m[K In constructor ‘[01m[KStatSubscriber::StatSubscriber()[m[K’:
+[2.325s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:13:61:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[2.325s]    13 |                 "location", 10, [this](const std_msgs::msg::[01;31m[KPoint[m[K &msg) {callback(msg);}
+[2.325s]       |                                                             [01;31m[K^~~~~[m[K
+[2.325s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:[m[K In lambda function:
+[2.325s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:14:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[2.325s]    14 |             )[01;31m[K;[m[K
+[2.325s]       |              [01;31m[K^[m[K
+[2.325s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:[m[K In constructor ‘[01m[KStatSubscriber::StatSubscriber()[m[K’:
+[2.325s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:14:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.325s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:12:67:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.325s]    12 |             sub = this->create_subscription<std_msgs::msg::String>[01;36m[K([m[K
+[2.325s]       |                                                                   [01;36m[K^[m[K
+[2.325s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.326s]                  from [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:3[m[K:
+[2.326s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:[m[K In member function ‘[01m[Kvoid StatSubscriber::callback(const int&) const[m[K’:
+[2.326s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:19:49:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.326s]    19 |             RCLCPP_INFO(this->get_logger(), msg.[01;31m[Kdata[m[K.c_str());
+[2.326s]       |                                                 [01;31m[K^~~~[m[K
+[2.438s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:24:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.438s]    24 | }
+[2.439s]       |  [01;31m[K^[m[K
+[2.439s]       |  [32m[K;[m[K
+[2.439s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.440s]                  from [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:3[m[K:
+[2.440s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:[m[K In member function ‘[01m[Kvoid LocSubscriber::callback(const Point&) const[m[K’:
+[2.440s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:68:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Kconst _x_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+[2.440s]    19 |             RCLCPP_INFO(this->get_logger(), "Drone is at: ", msg.x.[01;31m[Kc_str[m[K(), msg.y.c_str()
+[2.440s]       |                                                                    [01;31m[K^~~~~[m[K
+[2.440s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:83:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Kconst _y_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+[2.440s]    19 |             RCLCPP_INFO(this->get_logger(), "Drone is at: ", msg.x.c_str(), msg.y.[01;31m[Kc_str[m[K()
+[2.440s]       |                                                                                   [01;31m[K^~~~~[m[K
+[2.440s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:20:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::z[m[K’, which is of non-class type ‘[01m[Kconst _z_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+[2.440s]    20 |         , msg.z.[01;31m[Kc_str[m[K());
+[2.440s]       |                 [01;31m[K^~~~~[m[K
+[2.782s] gmake[2]: *** [CMakeFiles/stat_listener.dir/build.make:76: CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o] Error 1
+[2.782s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stat_listener.dir/all] Error 2
+[2.782s] gmake[1]: *** Waiting for unfinished jobs....
+[4.565s] [ 66%] [32m[1mLinking CXX executable transmitter[0m
+[4.877s] [ 66%] Built target transmitter
+[4.979s] gmake[2]: *** [CMakeFiles/loc_listener.dir/build.make:76: CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o] Error 1
+[4.979s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/loc_listener.dir/all] Error 2
+[4.980s] gmake: *** [Makefile:146: all] Error 2
+[4.984s] Invoked command in '/home/rakmo/pubsub_test/build/loc_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/pubsub_test/build/loc_pubsub -- -j22 -l22

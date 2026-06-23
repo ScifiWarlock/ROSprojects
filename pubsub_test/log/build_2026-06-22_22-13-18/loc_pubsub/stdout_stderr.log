@@ -1,0 +1,128 @@
+[35m[1mConsolidate compiler generated dependencies of target loc_listener[0m
+[35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[35m[1mConsolidate compiler generated dependencies of target transmitter[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:18:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   18 |         void callback(const [01;31m[Kgeometry_msgs[m[K::msg::Point &msg) const{
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:18:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   18 |         void callback(const geometry_msgs::msg[01;31m[K::[m[KPoint &msg) const{
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:18:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   18 |         void callback[34m[K([m[Kconst geometry_msgs::msg[01;31m[K:[m[K[32m[K:[m[KPoint &msg) const{
+      |                      [34m[K~[m[K                        [01;31m[K^[m[K[32m[K~[m[K
+      |                                               [32m[K)[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:18:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   18 |         void callback(const geometry_msgs::[01;31m[Kmsg[m[K::Point &msg) const{
+      |                                            [01;31m[K^~~[m[K
+      |                                               [32m[K;[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:18:49:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   18 |         void callback(const geometry_msgs::msg::[01;31m[KPoint[m[K &msg) const{
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locsender.cpp:[m[K In constructor ‘[01m[KLocationPublisher::LocationPublisher()[m[K’:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locsender.cpp:17:81:[m[K [01;31m[Kerror: [m[K‘[01m[KQoS[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::QoS[m[K’?
+   17 |             pub_coord = create_publisher<geometry_msgs::msg::Point>("location", [01;31m[KQoS[m[K(10).best_effort());
+      |                                                                                 [01;31m[K^~~[m[K
+      |                                                                                 [32m[Krclcpp::QoS[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locsender.cpp:7[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::QoS[m[K’ declared here
+  110 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+      |                     [01;36m[K^~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locsender.cpp:[m[K In member function ‘[01m[Kvoid LocationPublisher::callback()[m[K’:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locsender.cpp:25:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   25 |             [01;31m[Kmessage[m[K.x = 100.0;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:23:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   23 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:[m[K In constructor ‘[01m[KStatSubscriber::StatSubscriber()[m[K’:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:13:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   13 |                 "location", 10, [this](const [01;31m[Kgeometry_msgs[m[K::msg::Point &msg) {callback();};
+      |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:13:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   13 |                 "location", 10, [this](const geometry_msgs::msg::Point &msg) {callback();}[01;31m[K;[m[K
+      |                                                                                           [01;31m[K^[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:13:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   13 |                 "location", 10, [this][01;36m[K([m[Kconst geometry_msgs::msg::Point &msg) {callback();};
+      |                                       [01;36m[K^[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:[m[K In lambda function:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:13:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   13 |                 "location", 10, [this](const geometry_msgs::msg::Point &msg) {callback();}[01;31m[K;[m[K
+      |                                                                                           [01;31m[K^[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:[m[K In constructor ‘[01m[KStatSubscriber::StatSubscriber()[m[K’:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:13:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:12:67:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   12 |             sub = this->create_subscription<std_msgs::msg::String>[01;36m[K([m[K
+      |                                                                   [01;36m[K^[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:14:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   14 |             [01;31m[K)[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:24:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   24 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:[m[K In lambda function:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:13:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLocSubscriber::callback()[m[K’
+   13 |                 "location", 10, [this](const geometry_msgs::msg::Point &msg) {[01;31m[Kcallback()[m[K;};
+      |                                                                               [01;31m[K~~~~~~~~^~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:18:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid LocSubscriber::callback(const Point&) const[m[K’
+   18 |         void [01;36m[Kcallback[m[K(const geometry_msgs::msg::Point &msg) const{
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:18:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:13:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   13 |                 "location", 10, [this]([01;35m[Kconst geometry_msgs::msg::Point &msg[m[K) {callback();};
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:[m[K In constructor ‘[01m[KLocSubscriber::LocSubscriber()[m[K’:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:13:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   13 |                 "location", 10, [this](const geometry_msgs::msg::Point &msg) {callback();}[01;31m[K;[m[K
+      |                                                                                           [01;31m[K^[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:12:71:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   12 |             sub = this->create_subscription<geometry_msgs::msg::Point>[01;36m[K([m[K
+      |                                                                       [01;36m[K^[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:14:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   14 |             [01;31m[K)[m[K
+      |             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:3[m[K:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:[m[K In member function ‘[01m[Kvoid LocSubscriber::callback(const Point&) const[m[K’:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:68:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Kconst _x_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   19 |             RCLCPP_INFO(this->get_logger(), "Drone is at: ", msg.x.[01;31m[Kc_str[m[K(), msg.y.c_str()
+      |                                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:83:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Kconst _y_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   19 |             RCLCPP_INFO(this->get_logger(), "Drone is at: ", msg.x.c_str(), msg.y.[01;31m[Kc_str[m[K()
+      |                                                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:20:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::z[m[K’, which is of non-class type ‘[01m[Kconst _z_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   20 |         , msg.z.[01;31m[Kc_str[m[K());
+      |                 [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/loc_listener.dir/build.make:76: CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/loc_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/stat_listener.dir/build.make:76: CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stat_listener.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/transmitter.dir/build.make:76: CMakeFiles/transmitter.dir/src/locsender.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/transmitter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

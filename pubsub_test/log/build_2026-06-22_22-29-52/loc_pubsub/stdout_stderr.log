@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target loc_listener[0m
+[ 33%] Built target stat_listener
+[ 66%] Built target transmitter
+[ 83%] [32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o[0m
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:[m[K In constructor ‘[01m[KLocSubscriber::LocSubscriber()[m[K’:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:13:37:[m[K [01;31m[Kerror: [m[K‘[01m[KQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KQoS[m[K’?
+   13 |                 "location", rclcpp::[01;31m[KQos[m[K(10).best_effort(), [this](const geometry_msgs::msg::Point &msg) {callback(msg);}
+      |                                     [01;31m[K^~~[m[K
+      |                                     [32m[KQoS[m[K
+gmake[2]: *** [CMakeFiles/loc_listener.dir/build.make:76: CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/loc_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

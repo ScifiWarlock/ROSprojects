@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o[0m
+[ 50%] Built target stat_listener
+[ 83%] Built target loc_listener
+[100%] [32m[1mLinking CXX executable transmitter[0m
+[100%] Built target transmitter
+-- Install configuration: ""
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter
+-- Set runtime path of "/home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter" to ""
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/loc_listener
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/package_run_dependencies/loc_pubsub
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/parent_prefix_path/loc_pubsub
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.sh
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.dsv
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.bash
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.sh
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.zsh
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.dsv
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.dsv
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/packages/loc_pubsub
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig.cmake
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig-version.cmake
+-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.xml

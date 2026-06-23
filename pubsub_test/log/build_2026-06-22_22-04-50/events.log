@@ -1,0 +1,313 @@
+[0.000000] (-) TimerEvent: {}
+[0.000545] (loc_pubsub) JobQueued: {'identifier': 'loc_pubsub', 'dependencies': OrderedDict()}
+[0.000957] (loc_pubsub) JobStarted: {'identifier': 'loc_pubsub'}
+[0.024361] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'cmake'}
+[0.027901] (loc_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/rakmo/pubsub_test/loc_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/rakmo/pubsub_test/install/loc_pubsub'], 'cwd': '/home/rakmo/pubsub_test/build/loc_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakmo'), ('GIT_ASKPASS', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakmo/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rakmo'), ('OLDPWD', '/home/rakmo'), ('TERM_PROGRAM_VERSION', '1.109.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3577393a-0f9a-4c9f-ac2e-f33e53ca1f70.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rakmo/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rakmo'), ('NAME', 'MacbookPro'), ('WSL_INTEROP', '/run/WSL/419_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Ruby40-x64/bin:/mnt/c/Users/rakmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rakmo/AppData/Local/Programs/Git/cmd:/mnt/c/Users/rakmo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/rakmo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2f39a16452.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rakmo/ros2_ws2/install/turtlesim:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rakmo/pubsub_test/build/loc_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakmo/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rakmo/ros2_ws2/install/turtlesim:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.101767] (-) TimerEvent: {}
+[0.202747] (-) TimerEvent: {}
+[0.308235] (-) TimerEvent: {}
+[0.413794] (-) TimerEvent: {}
+[0.430705] (loc_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.516278] (-) TimerEvent: {}
+[0.619693] (-) TimerEvent: {}
+[0.725134] (-) TimerEvent: {}
+[0.829552] (-) TimerEvent: {}
+[0.935083] (-) TimerEvent: {}
+[1.040587] (-) TimerEvent: {}
+[1.143571] (-) TimerEvent: {}
+[1.249200] (-) TimerEvent: {}
+[1.351229] (-) TimerEvent: {}
+[1.406220] (loc_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.453489] (-) TimerEvent: {}
+[1.557353] (-) TimerEvent: {}
+[1.663023] (-) TimerEvent: {}
+[1.763834] (-) TimerEvent: {}
+[1.867245] (-) TimerEvent: {}
+[1.972822] (-) TimerEvent: {}
+[2.025884] (loc_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.075112] (-) TimerEvent: {}
+[2.180616] (-) TimerEvent: {}
+[2.262197] (loc_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.270340] (loc_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.281240] (-) TimerEvent: {}
+[2.299729] (loc_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.300511] (loc_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.305756] (loc_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.381691] (-) TimerEvent: {}
+[2.483533] (-) TimerEvent: {}
+[2.561679] (loc_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.571733] (loc_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.572174] (loc_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.573073] (loc_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.583721] (-) TimerEvent: {}
+[2.628252] (loc_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.684994] (-) TimerEvent: {}
+[2.786983] (-) TimerEvent: {}
+[2.877523] (loc_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.887637] (-) TimerEvent: {}
+[2.990460] (-) TimerEvent: {}
+[3.044525] (loc_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.092175] (-) TimerEvent: {}
+[3.197704] (-) TimerEvent: {}
+[3.299149] (-) TimerEvent: {}
+[3.403684] (-) TimerEvent: {}
+[3.456527] (loc_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.470363] (loc_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.495696] (loc_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.504171] (-) TimerEvent: {}
+[3.541573] (loc_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.589832] (loc_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.604974] (-) TimerEvent: {}
+[3.698258] (loc_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.705331] (-) TimerEvent: {}
+[3.706458] (loc_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.810189] (-) TimerEvent: {}
+[3.915568] (-) TimerEvent: {}
+[4.018482] (-) TimerEvent: {}
+[4.123943] (-) TimerEvent: {}
+[4.224853] (-) TimerEvent: {}
+[4.325815] (-) TimerEvent: {}
+[4.428972] (-) TimerEvent: {}
+[4.533721] (-) TimerEvent: {}
+[4.639130] (-) TimerEvent: {}
+[4.744616] (-) TimerEvent: {}
+[4.850044] (-) TimerEvent: {}
+[4.950868] (-) TimerEvent: {}
+[5.056417] (-) TimerEvent: {}
+[5.159632] (-) TimerEvent: {}
+[5.261148] (-) TimerEvent: {}
+[5.362250] (-) TimerEvent: {}
+[5.463587] (-) TimerEvent: {}
+[5.567515] (-) TimerEvent: {}
+[5.670654] (-) TimerEvent: {}
+[5.774529] (-) TimerEvent: {}
+[5.878328] (-) TimerEvent: {}
+[5.980583] (-) TimerEvent: {}
+[6.068483] (loc_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.081415] (-) TimerEvent: {}
+[6.185780] (-) TimerEvent: {}
+[6.286687] (-) TimerEvent: {}
+[6.389813] (-) TimerEvent: {}
+[6.492102] (-) TimerEvent: {}
+[6.594471] (-) TimerEvent: {}
+[6.695226] (-) TimerEvent: {}
+[6.796891] (-) TimerEvent: {}
+[6.902292] (-) TimerEvent: {}
+[7.007704] (-) TimerEvent: {}
+[7.113213] (-) TimerEvent: {}
+[7.218749] (-) TimerEvent: {}
+[7.322832] (-) TimerEvent: {}
+[7.428320] (-) TimerEvent: {}
+[7.533814] (-) TimerEvent: {}
+[7.639457] (-) TimerEvent: {}
+[7.740281] (-) TimerEvent: {}
+[7.845228] (-) TimerEvent: {}
+[7.950619] (-) TimerEvent: {}
+[8.054588] (-) TimerEvent: {}
+[8.160164] (-) TimerEvent: {}
+[8.261411] (-) TimerEvent: {}
+[8.362843] (-) TimerEvent: {}
+[8.468349] (-) TimerEvent: {}
+[8.543986] (loc_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.569744] (-) TimerEvent: {}
+[8.675378] (-) TimerEvent: {}
+[8.777053] (-) TimerEvent: {}
+[8.882703] (-) TimerEvent: {}
+[8.988111] (-) TimerEvent: {}
+[9.093543] (-) TimerEvent: {}
+[9.199245] (-) TimerEvent: {}
+[9.300628] (-) TimerEvent: {}
+[9.404681] (-) TimerEvent: {}
+[9.507130] (-) TimerEvent: {}
+[9.612679] (-) TimerEvent: {}
+[9.717233] (-) TimerEvent: {}
+[9.821826] (-) TimerEvent: {}
+[9.926282] (-) TimerEvent: {}
+[10.030634] (-) TimerEvent: {}
+[10.135064] (-) TimerEvent: {}
+[10.236813] (-) TimerEvent: {}
+[10.337785] (-) TimerEvent: {}
+[10.440826] (-) TimerEvent: {}
+[10.543903] (-) TimerEvent: {}
+[10.645185] (-) TimerEvent: {}
+[10.749374] (-) TimerEvent: {}
+[10.851299] (-) TimerEvent: {}
+[10.955708] (-) TimerEvent: {}
+[11.060020] (-) TimerEvent: {}
+[11.164694] (-) TimerEvent: {}
+[11.269302] (-) TimerEvent: {}
+[11.372142] (-) TimerEvent: {}
+[11.476659] (-) TimerEvent: {}
+[11.581310] (-) TimerEvent: {}
+[11.686135] (-) TimerEvent: {}
+[11.790555] (-) TimerEvent: {}
+[11.895164] (-) TimerEvent: {}
+[11.999567] (-) TimerEvent: {}
+[12.101073] (-) TimerEvent: {}
+[12.205254] (-) TimerEvent: {}
+[12.309606] (-) TimerEvent: {}
+[12.414239] (-) TimerEvent: {}
+[12.519926] (-) TimerEvent: {}
+[12.622193] (-) TimerEvent: {}
+[12.727823] (-) TimerEvent: {}
+[12.833390] (-) TimerEvent: {}
+[12.938924] (-) TimerEvent: {}
+[13.044611] (-) TimerEvent: {}
+[13.147638] (-) TimerEvent: {}
+[13.247351] (loc_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.247647] (-) TimerEvent: {}
+[13.296000] (loc_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.347983] (-) TimerEvent: {}
+[13.452386] (-) TimerEvent: {}
+[13.534372] (loc_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.535214] (loc_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.553415] (-) TimerEvent: {}
+[13.657301] (-) TimerEvent: {}
+[13.760319] (-) TimerEvent: {}
+[13.761478] (loc_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.764097] (loc_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.861128] (-) TimerEvent: {}
+[13.911699] (loc_pubsub) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[13.941284] (loc_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.962201] (-) TimerEvent: {}
+[14.066527] (-) TimerEvent: {}
+[14.073482] (loc_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.074068] (loc_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.074271] (loc_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.076577] (loc_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.079526] (loc_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.079743] (loc_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.080817] (loc_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.083717] (loc_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.111759] (loc_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[14.120865] (loc_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/rakmo/pubsub_test/build/loc_pubsub\n'}
+[14.135477] (loc_pubsub) CommandEnded: {'returncode': 0}
+[14.136594] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'build'}
+[14.138842] (loc_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakmo/pubsub_test/build/loc_pubsub', '--', '-j22', '-l22'], 'cwd': '/home/rakmo/pubsub_test/build/loc_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakmo'), ('GIT_ASKPASS', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakmo/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rakmo'), ('OLDPWD', '/home/rakmo'), ('TERM_PROGRAM_VERSION', '1.109.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3577393a-0f9a-4c9f-ac2e-f33e53ca1f70.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rakmo/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rakmo'), ('NAME', 'MacbookPro'), ('WSL_INTEROP', '/run/WSL/419_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Ruby40-x64/bin:/mnt/c/Users/rakmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rakmo/AppData/Local/Programs/Git/cmd:/mnt/c/Users/rakmo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/rakmo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2f39a16452.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rakmo/ros2_ws2/install/turtlesim:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rakmo/pubsub_test/build/loc_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakmo/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rakmo/ros2_ws2/install/turtlesim:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[14.167626] (-) TimerEvent: {}
+[14.209294] (loc_pubsub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o\x1b[0m\n'}
+[14.209675] (loc_pubsub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o\x1b[0m\n'}
+[14.210079] (loc_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o\x1b[0m\n'}
+[14.267890] (-) TimerEvent: {}
+[14.368882] (-) TimerEvent: {}
+[14.471091] (-) TimerEvent: {}
+[14.573844] (-) TimerEvent: {}
+[14.669965] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msgs/msg/Point.hpp: No such file or directory\n'}
+[14.670278] (loc_pubsub) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K"geometry_msgs/msg/Point.hpp"\x1b[m\x1b[K\n'}
+[14.670365] (loc_pubsub) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.670425] (loc_pubsub) StderrLine: {'line': b'compilation terminated.\n'}
+[14.672072] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locsender.cpp:9:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msgs/msg/Point.hpp: No such file or directory\n'}
+[14.672258] (loc_pubsub) StderrLine: {'line': b'    9 | #include \x1b[01;31m\x1b[K"geometry_msgs/msg/Point.hpp"\x1b[m\x1b[K\n'}
+[14.672320] (loc_pubsub) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.672392] (loc_pubsub) StderrLine: {'line': b'compilation terminated.\n'}
+[14.672720] (loc_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/loc_listener.dir/build.make:76: CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o] Error 1\n'}
+[14.673222] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/loc_listener.dir/all] Error 2\n'}
+[14.673364] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[14.673948] (-) TimerEvent: {}
+[14.674502] (loc_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/transmitter.dir/build.make:76: CMakeFiles/transmitter.dir/src/locsender.cpp.o] Error 1\n'}
+[14.674643] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/transmitter.dir/all] Error 2\n'}
+[14.779335] (-) TimerEvent: {}
+[14.880191] (-) TimerEvent: {}
+[14.981190] (-) TimerEvent: {}
+[15.082928] (-) TimerEvent: {}
+[15.186767] (-) TimerEvent: {}
+[15.289751] (-) TimerEvent: {}
+[15.390701] (-) TimerEvent: {}
+[15.491454] (-) TimerEvent: {}
+[15.594088] (-) TimerEvent: {}
+[15.698050] (-) TimerEvent: {}
+[15.803773] (-) TimerEvent: {}
+[15.909811] (-) TimerEvent: {}
+[16.015901] (-) TimerEvent: {}
+[16.122028] (-) TimerEvent: {}
+[16.227937] (-) TimerEvent: {}
+[16.329091] (-) TimerEvent: {}
+[16.435225] (-) TimerEvent: {}
+[16.539461] (-) TimerEvent: {}
+[16.644540] (-) TimerEvent: {}
+[16.750631] (-) TimerEvent: {}
+[16.856512] (-) TimerEvent: {}
+[16.962403] (-) TimerEvent: {}
+[17.068155] (-) TimerEvent: {}
+[17.172826] (-) TimerEvent: {}
+[17.279582] (-) TimerEvent: {}
+[17.383401] (-) TimerEvent: {}
+[17.489187] (-) TimerEvent: {}
+[17.591736] (-) TimerEvent: {}
+[17.692448] (-) TimerEvent: {}
+[17.798190] (-) TimerEvent: {}
+[17.903114] (-) TimerEvent: {}
+[18.009299] (-) TimerEvent: {}
+[18.112126] (-) TimerEvent: {}
+[18.213968] (-) TimerEvent: {}
+[18.315914] (-) TimerEvent: {}
+[18.422582] (-) TimerEvent: {}
+[18.454778] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:9:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[18.455106] (loc_pubsub) StderrLine: {'line': b'    9 | class StatSubscriber : public \x1b[01;31m\x1b[Krclcp\x1b[m\x1b[K::Node{\n'}
+[18.455190] (loc_pubsub) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[18.455258] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:9:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.455345] (loc_pubsub) StderrLine: {'line': b'    9 | class StatSubscriber : public rclcp::\x1b[01;31m\x1b[KNode\x1b[m\x1b[K{\n'}
+[18.455408] (loc_pubsub) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.455474] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:10:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.455579] (loc_pubsub) StderrLine: {'line': b'   10 |     \x1b[01;31m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[18.455669] (loc_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[18.455737] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:10:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.455805] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:9:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.455871] (loc_pubsub) StderrLine: {'line': b'    9 | class StatSubscriber : public rclcp::Node\x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[18.455935] (loc_pubsub) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[18.456000] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.456067] (loc_pubsub) StderrLine: {'line': b'   17 |     \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[18.456134] (loc_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[18.525205] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:23:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[18.525692] (-) TimerEvent: {}
+[18.526001] (loc_pubsub) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[18.526155] (loc_pubsub) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.532028] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.532592] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:27:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(std::shared_ptr<StatSubscriber>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.532711] (loc_pubsub) StderrLine: {'line': b'   27 |     \x1b[01;31m\x1b[Krclcpp::spin(make_shared<StatSubscriber>())\x1b[m\x1b[K;\n'}
+[18.532791] (loc_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.532863] (loc_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[18.532935] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:3\x1b[m\x1b[K:\n'}
+[18.533005] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.533075] (loc_pubsub) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[18.533144] (loc_pubsub) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.533208] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KStatSubscriber\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::node_interfaces::NodeBaseInterface\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.533315] (loc_pubsub) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[18.533381] (loc_pubsub) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[18.533442] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.533504] (loc_pubsub) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[18.533563] (loc_pubsub) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.533622] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KStatSubscriber\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::Node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.533689] (loc_pubsub) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[18.533752] (loc_pubsub) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[18.631512] (-) TimerEvent: {}
+[18.738167] (-) TimerEvent: {}
+[18.839625] (-) TimerEvent: {}
+[18.946321] (-) TimerEvent: {}
+[19.051206] (-) TimerEvent: {}
+[19.147653] (loc_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:60\x1b[m\x1b[K,\n'}
+[19.148065] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[19.148165] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[19.148245] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:1\x1b[m\x1b[K:\n'}
+[19.148326] (loc_pubsub) StderrLine: {'line': b'/usr/include/c++/11/ext/aligned_buffer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct __gnu_cxx::__aligned_buffer<StatSubscriber>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.148405] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<StatSubscriber, std::allocator<StatSubscriber>, __gnu_cxx::_S_atomic>::_Impl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.148502] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<StatSubscriber, std::allocator<StatSubscriber>, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.148582] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = StatSubscriber; _Alloc = std::allocator<StatSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.148663] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<StatSubscriber>; _Args = {}; _Tp = StatSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.148741] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<StatSubscriber>; _Args = {}; _Tp = StatSubscriber]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.148830] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = StatSubscriber; _Alloc = std::allocator<StatSubscriber>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.148912] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = StatSubscriber; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.148996] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:27:45:\x1b[m\x1b[K   required from here\n'}
+[19.149076] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KStatSubscriber\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.149154] (loc_pubsub) StderrLine: {'line': b'   91 |     : std::aligned_storage<\x1b[01;31m\x1b[Ksizeof(_Tp)\x1b[m\x1b[K, __alignof__(_Tp)>\n'}
+[19.149236] (loc_pubsub) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.149314] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KStatSubscriber\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.151395] (-) TimerEvent: {}
+[19.257727] (-) TimerEvent: {}
+[19.339475] (loc_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stat_listener.dir/build.make:76: CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o] Error 1\n'}
+[19.339940] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stat_listener.dir/all] Error 2\n'}
+[19.340219] (loc_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.344207] (loc_pubsub) CommandEnded: {'returncode': 2}
+[19.359093] (-) TimerEvent: {}
+[19.373524] (loc_pubsub) JobEnded: {'identifier': 'loc_pubsub', 'rc': 2}
+[19.378440] (-) EventReactorShutdown: {}

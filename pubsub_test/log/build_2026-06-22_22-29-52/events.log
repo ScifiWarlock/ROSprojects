@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.001817] (loc_pubsub) JobQueued: {'identifier': 'loc_pubsub', 'dependencies': OrderedDict()}
+[0.001867] (loc_pubsub) JobStarted: {'identifier': 'loc_pubsub'}
+[0.020616] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'cmake'}
+[0.022227] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'build'}
+[0.023225] (loc_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakmo/pubsub_test/build/loc_pubsub', '--', '-j22', '-l22'], 'cwd': '/home/rakmo/pubsub_test/build/loc_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakmo'), ('GIT_ASKPASS', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakmo/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rakmo'), ('OLDPWD', '/home/rakmo'), ('TERM_PROGRAM_VERSION', '1.109.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e184309e-3f4d-4c81-9666-882549143f9f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rakmo/pubsub_test/install:/home/rakmo/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rakmo'), ('NAME', 'MacbookPro'), ('WSL_INTEROP', '/run/WSL/419_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Ruby40-x64/bin:/mnt/c/Users/rakmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rakmo/AppData/Local/Programs/Git/cmd:/mnt/c/Users/rakmo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/rakmo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2f39a16452.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rakmo/pubsub_test/install/loc_pubsub:/home/rakmo/ros2_ws2/install/turtlesim:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rakmo/pubsub_test/build/loc_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakmo/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rakmo/pubsub_test/install/loc_pubsub:/home/rakmo/ros2_ws2/install/turtlesim:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099833] (-) TimerEvent: {}
+[0.102187] (loc_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target loc_listener\x1b[0m\n'}
+[0.117374] (loc_pubsub) StdoutLine: {'line': b'[ 33%] Built target stat_listener\n'}
+[0.121499] (loc_pubsub) StdoutLine: {'line': b'[ 66%] Built target transmitter\n'}
+[0.128543] (loc_pubsub) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o\x1b[0m\n'}
+[0.199995] (-) TimerEvent: {}
+[0.300404] (-) TimerEvent: {}
+[0.402066] (-) TimerEvent: {}
+[0.504895] (-) TimerEvent: {}
+[0.610359] (-) TimerEvent: {}
+[0.711039] (-) TimerEvent: {}
+[0.816741] (-) TimerEvent: {}
+[0.921985] (-) TimerEvent: {}
+[1.023192] (-) TimerEvent: {}
+[1.128550] (-) TimerEvent: {}
+[1.233879] (-) TimerEvent: {}
+[1.334495] (-) TimerEvent: {}
+[1.437416] (-) TimerEvent: {}
+[1.543240] (-) TimerEvent: {}
+[1.648628] (-) TimerEvent: {}
+[1.750225] (-) TimerEvent: {}
+[1.855882] (-) TimerEvent: {}
+[1.956421] (-) TimerEvent: {}
+[2.058118] (-) TimerEvent: {}
+[2.163775] (-) TimerEvent: {}
+[2.267763] (-) TimerEvent: {}
+[2.369180] (-) TimerEvent: {}
+[2.474662] (-) TimerEvent: {}
+[2.578432] (-) TimerEvent: {}
+[2.684051] (-) TimerEvent: {}
+[2.789631] (-) TimerEvent: {}
+[2.890894] (-) TimerEvent: {}
+[2.991525] (-) TimerEvent: {}
+[3.093899] (-) TimerEvent: {}
+[3.112946] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLocSubscriber::LocSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.113467] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:13:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQos\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KQoS\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.113581] (loc_pubsub) StderrLine: {'line': b'   13 |                 "location", rclcpp::\x1b[01;31m\x1b[KQos\x1b[m\x1b[K(10).best_effort(), [this](const geometry_msgs::msg::Point &msg) {callback(msg);}\n'}
+[3.113666] (loc_pubsub) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.113748] (loc_pubsub) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[KQoS\x1b[m\x1b[K\n'}
+[3.196642] (-) TimerEvent: {}
+[3.302162] (-) TimerEvent: {}
+[3.402714] (-) TimerEvent: {}
+[3.505628] (-) TimerEvent: {}
+[3.607489] (-) TimerEvent: {}
+[3.624747] (loc_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/loc_listener.dir/build.make:76: CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o] Error 1\n'}
+[3.625051] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/loc_listener.dir/all] Error 2\n'}
+[3.625193] (loc_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.628862] (loc_pubsub) CommandEnded: {'returncode': 2}
+[3.646794] (loc_pubsub) JobEnded: {'identifier': 'loc_pubsub', 'rc': 2}
+[3.657578] (-) EventReactorShutdown: {}

@@ -1,0 +1,47 @@
+[35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[35m[1mConsolidate compiler generated dependencies of target loc_listener[0m
+[ 33%] Built target transmitter
+[ 50%] [32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:3[m[K:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:[m[K In member function ‘[01m[Kvoid LocSubscriber::callback(const Point&) const[m[K’:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   19 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Drone is at: "[m[K, msg.x, msg.y
+      |                                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[ 83%] [32m[1mLinking CXX executable stat_listener[0m
+[100%] [32m[1mLinking CXX executable loc_listener[0m
+[100%] Built target stat_listener
+[100%] Built target loc_listener
+-- Install configuration: ""
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter
+-- Set runtime path of "/home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter" to ""
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/loc_listener
+-- Set runtime path of "/home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/loc_listener" to ""
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener
+-- Set runtime path of "/home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener" to ""
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/package_run_dependencies/loc_pubsub
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/parent_prefix_path/loc_pubsub
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.dsv
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.sh
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.dsv
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.bash
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.sh
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.zsh
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.dsv
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.dsv
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/packages/loc_pubsub
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig.cmake
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig-version.cmake
+-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.xml

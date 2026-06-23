@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000859] (loc_pubsub) JobQueued: {'identifier': 'loc_pubsub', 'dependencies': OrderedDict()}
+[0.001664] (loc_pubsub) JobStarted: {'identifier': 'loc_pubsub'}
+[0.015322] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'cmake'}
+[0.016590] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'build'}
+[0.017914] (loc_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakmo/pubsub_test/build/loc_pubsub', '--', '-j22', '-l22'], 'cwd': '/home/rakmo/pubsub_test/build/loc_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakmo'), ('GIT_ASKPASS', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakmo/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rakmo'), ('OLDPWD', '/home/rakmo'), ('TERM_PROGRAM_VERSION', '1.109.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ec04c381-bc26-4a0c-b6a2-45f2f9578883.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rakmo/pubsub_test/install:/home/rakmo/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rakmo'), ('NAME', 'MacbookPro'), ('WSL_INTEROP', '/run/WSL/419_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Ruby40-x64/bin:/mnt/c/Users/rakmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rakmo/AppData/Local/Programs/Git/cmd:/mnt/c/Users/rakmo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/rakmo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2f39a16452.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rakmo/pubsub_test/install/loc_pubsub:/home/rakmo/ros2_ws2/install/cpp_pubsub:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rakmo/pubsub_test/build/loc_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakmo/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rakmo/pubsub_test/install/loc_pubsub:/home/rakmo/ros2_ws2/install/cpp_pubsub:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.084574] (loc_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target transmitter\x1b[0m\n'}
+[0.098809] (loc_pubsub) StdoutLine: {'line': b'[ 33%] Built target loc_listener\n'}
+[0.099212] (-) TimerEvent: {}
+[0.100670] (loc_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o\x1b[0m\n'}
+[0.106377] (loc_pubsub) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable transmitter\x1b[0m\n'}
+[0.199627] (-) TimerEvent: {}
+[0.300537] (-) TimerEvent: {}
+[0.401446] (-) TimerEvent: {}
+[0.504713] (-) TimerEvent: {}
+[0.537263] (loc_pubsub) StdoutLine: {'line': b'[ 83%] Built target transmitter\n'}
+[0.605208] (-) TimerEvent: {}
+[0.707435] (-) TimerEvent: {}
+[0.813472] (-) TimerEvent: {}
+[0.917837] (-) TimerEvent: {}
+[1.018738] (-) TimerEvent: {}
+[1.122521] (-) TimerEvent: {}
+[1.227256] (-) TimerEvent: {}
+[1.328271] (-) TimerEvent: {}
+[1.429904] (-) TimerEvent: {}
+[1.534556] (-) TimerEvent: {}
+[1.639233] (-) TimerEvent: {}
+[1.743964] (-) TimerEvent: {}
+[1.848559] (-) TimerEvent: {}
+[1.953182] (-) TimerEvent: {}
+[2.057868] (-) TimerEvent: {}
+[2.162495] (-) TimerEvent: {}
+[2.267088] (-) TimerEvent: {}
+[2.369736] (-) TimerEvent: {}
+[2.474236] (-) TimerEvent: {}
+[2.575445] (-) TimerEvent: {}
+[2.679923] (-) TimerEvent: {}
+[2.784557] (-) TimerEvent: {}
+[2.887671] (-) TimerEvent: {}
+[2.993413] (-) TimerEvent: {}
+[3.095601] (-) TimerEvent: {}
+[3.199990] (-) TimerEvent: {}
+[3.300967] (-) TimerEvent: {}
+[3.402219] (-) TimerEvent: {}
+[3.503097] (-) TimerEvent: {}
+[3.604567] (-) TimerEvent: {}
+[3.710435] (-) TimerEvent: {}
+[3.812419] (-) TimerEvent: {}
+[3.913307] (-) TimerEvent: {}
+[4.016644] (-) TimerEvent: {}
+[4.120644] (-) TimerEvent: {}
+[4.223383] (-) TimerEvent: {}
+[4.324302] (-) TimerEvent: {}
+[4.426492] (-) TimerEvent: {}
+[4.531073] (-) TimerEvent: {}
+[4.634837] (-) TimerEvent: {}
+[4.740917] (-) TimerEvent: {}
+[4.847049] (-) TimerEvent: {}
+[4.953217] (-) TimerEvent: {}
+[5.058943] (-) TimerEvent: {}
+[5.164302] (-) TimerEvent: {}
+[5.270437] (-) TimerEvent: {}
+[5.372685] (-) TimerEvent: {}
+[5.477589] (-) TimerEvent: {}
+[5.578284] (-) TimerEvent: {}
+[5.684139] (-) TimerEvent: {}
+[5.790196] (-) TimerEvent: {}
+[5.896184] (-) TimerEvent: {}
+[6.002280] (-) TimerEvent: {}
+[6.104045] (-) TimerEvent: {}
+[6.210167] (-) TimerEvent: {}
+[6.316131] (-) TimerEvent: {}
+[6.422220] (-) TimerEvent: {}
+[6.528386] (-) TimerEvent: {}
+[6.631643] (-) TimerEvent: {}
+[6.737825] (-) TimerEvent: {}
+[6.843678] (-) TimerEvent: {}
+[6.949761] (-) TimerEvent: {}
+[7.055478] (-) TimerEvent: {}
+[7.160085] (-) TimerEvent: {}
+[7.260980] (-) TimerEvent: {}
+[7.366989] (-) TimerEvent: {}
+[7.473027] (-) TimerEvent: {}
+[7.579012] (-) TimerEvent: {}
+[7.684773] (-) TimerEvent: {}
+[7.789776] (-) TimerEvent: {}
+[7.892675] (-) TimerEvent: {}
+[7.998180] (-) TimerEvent: {}
+[8.099353] (-) TimerEvent: {}
+[8.203597] (-) TimerEvent: {}
+[8.308271] (-) TimerEvent: {}
+[8.411269] (-) TimerEvent: {}
+[8.515787] (-) TimerEvent: {}
+[8.618093] (-) TimerEvent: {}
+[8.722670] (-) TimerEvent: {}
+[8.827239] (-) TimerEvent: {}
+[8.931615] (-) TimerEvent: {}
+[9.035994] (-) TimerEvent: {}
+[9.138961] (-) TimerEvent: {}
+[9.243334] (-) TimerEvent: {}
+[9.345988] (-) TimerEvent: {}
+[9.450519] (-) TimerEvent: {}
+[9.555191] (-) TimerEvent: {}
+[9.659096] (-) TimerEvent: {}
+[9.763427] (-) TimerEvent: {}
+[9.867765] (-) TimerEvent: {}
+[9.972167] (-) TimerEvent: {}
+[10.076582] (-) TimerEvent: {}
+[10.181267] (-) TimerEvent: {}
+[10.286211] (-) TimerEvent: {}
+[10.390658] (-) TimerEvent: {}
+[10.494817] (-) TimerEvent: {}
+[10.595775] (-) TimerEvent: {}
+[10.700236] (-) TimerEvent: {}
+[10.804905] (-) TimerEvent: {}
+[10.908445] (-) TimerEvent: {}
+[11.013019] (-) TimerEvent: {}
+[11.117393] (-) TimerEvent: {}
+[11.221767] (-) TimerEvent: {}
+[11.322809] (-) TimerEvent: {}
+[11.425045] (-) TimerEvent: {}
+[11.529411] (-) TimerEvent: {}
+[11.633887] (-) TimerEvent: {}
+[11.735558] (-) TimerEvent: {}
+[11.839980] (-) TimerEvent: {}
+[11.944436] (-) TimerEvent: {}
+[12.049094] (-) TimerEvent: {}
+[12.154319] (-) TimerEvent: {}
+[12.258771] (-) TimerEvent: {}
+[12.363637] (-) TimerEvent: {}
+[12.467836] (-) TimerEvent: {}
+[12.572005] (-) TimerEvent: {}
+[12.674398] (-) TimerEvent: {}
+[12.778101] (-) TimerEvent: {}
+[12.879957] (-) TimerEvent: {}
+[12.985060] (-) TimerEvent: {}
+[13.089376] (-) TimerEvent: {}
+[13.135361] (loc_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stat_listener\x1b[0m\n'}
+[13.190026] (-) TimerEvent: {}
+[13.295209] (-) TimerEvent: {}
+[13.397299] (-) TimerEvent: {}
+[13.498505] (-) TimerEvent: {}
+[13.602689] (-) TimerEvent: {}
+[13.707151] (-) TimerEvent: {}
+[13.811733] (-) TimerEvent: {}
+[13.902418] (loc_pubsub) StdoutLine: {'line': b'[100%] Built target stat_listener\n'}
+[13.912258] (-) TimerEvent: {}
+[13.941913] (loc_pubsub) CommandEnded: {'returncode': 0}
+[13.943929] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'install'}
+[13.956563] (loc_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rakmo/pubsub_test/build/loc_pubsub'], 'cwd': '/home/rakmo/pubsub_test/build/loc_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakmo'), ('GIT_ASKPASS', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakmo/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rakmo'), ('OLDPWD', '/home/rakmo'), ('TERM_PROGRAM_VERSION', '1.109.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ec04c381-bc26-4a0c-b6a2-45f2f9578883.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rakmo/pubsub_test/install:/home/rakmo/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rakmo'), ('NAME', 'MacbookPro'), ('WSL_INTEROP', '/run/WSL/419_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Ruby40-x64/bin:/mnt/c/Users/rakmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rakmo/AppData/Local/Programs/Git/cmd:/mnt/c/Users/rakmo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/rakmo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2f39a16452.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rakmo/pubsub_test/install/loc_pubsub:/home/rakmo/ros2_ws2/install/cpp_pubsub:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rakmo/pubsub_test/build/loc_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakmo/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rakmo/pubsub_test/install/loc_pubsub:/home/rakmo/ros2_ws2/install/cpp_pubsub:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[13.967830] (loc_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.968247] (loc_pubsub) StdoutLine: {'line': b'-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter\n'}
+[13.969848] (loc_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter" to ""\n'}
+[13.970389] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/loc_listener\n'}
+[13.971165] (loc_pubsub) StdoutLine: {'line': b'-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener\n'}
+[13.978794] (loc_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener" to ""\n'}
+[13.979129] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/package_run_dependencies/loc_pubsub\n'}
+[13.979281] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/parent_prefix_path/loc_pubsub\n'}
+[13.979348] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.sh\n'}
+[13.979533] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.dsv\n'}
+[13.980344] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.sh\n'}
+[13.981380] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.dsv\n'}
+[13.981650] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.bash\n'}
+[13.981780] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.sh\n'}
+[13.981845] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.zsh\n'}
+[13.981901] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.dsv\n'}
+[13.981953] (loc_pubsub) StdoutLine: {'line': b'-- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.dsv\n'}
+[13.982598] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/packages/loc_pubsub\n'}
+[13.982707] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig.cmake\n'}
+[13.982802] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig-version.cmake\n'}
+[13.982858] (loc_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.xml\n'}
+[13.987134] (loc_pubsub) CommandEnded: {'returncode': 0}
+[14.012716] (-) TimerEvent: {}
+[14.015711] (loc_pubsub) JobEnded: {'identifier': 'loc_pubsub', 'rc': 0}
+[14.018032] (-) EventReactorShutdown: {}

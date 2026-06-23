@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000431] (loc_pubsub) JobQueued: {'identifier': 'loc_pubsub', 'dependencies': OrderedDict()}
+[0.000477] (loc_pubsub) JobStarted: {'identifier': 'loc_pubsub'}
+[0.010863] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'cmake'}
+[0.012824] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'build'}
+[0.014411] (loc_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakmo/pubsub_test/build/loc_pubsub', '--', '-j22', '-l22'], 'cwd': '/home/rakmo/pubsub_test/build/loc_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakmo'), ('GIT_ASKPASS', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rakmo/ros2_ws2/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rakmo'), ('OLDPWD', '/home/rakmo'), ('TERM_PROGRAM_VERSION', '1.109.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3577393a-0f9a-4c9f-ac2e-f33e53ca1f70.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rakmo/ros2_ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rakmo'), ('NAME', 'MacbookPro'), ('WSL_INTEROP', '/run/WSL/419_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Ruby40-x64/bin:/mnt/c/Users/rakmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rakmo/AppData/Local/Programs/Git/cmd:/mnt/c/Users/rakmo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/rakmo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2f39a16452.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rakmo/ros2_ws2/install/turtlesim:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rakmo/pubsub_test/build/loc_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rakmo/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rakmo/ros2_ws2/install/turtlesim:/home/rakmo/ros2_ws2/install/my_package:/home/rakmo/ros2_ws2/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099637] (-) TimerEvent: {}
+[0.106375] (loc_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stat_listener\x1b[0m\n'}
+[0.106922] (loc_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target transmitter\x1b[0m\n'}
+[0.107476] (loc_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target loc_listener\x1b[0m\n'}
+[0.127314] (loc_pubsub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o\x1b[0m\n'}
+[0.127526] (loc_pubsub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o\x1b[0m\n'}
+[0.131446] (loc_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o\x1b[0m\n'}
+[0.200611] (-) TimerEvent: {}
+[0.301059] (-) TimerEvent: {}
+[0.404743] (-) TimerEvent: {}
+[0.505316] (-) TimerEvent: {}
+[0.609046] (-) TimerEvent: {}
+[0.709588] (-) TimerEvent: {}
+[0.811794] (-) TimerEvent: {}
+[0.913481] (-) TimerEvent: {}
+[1.017367] (-) TimerEvent: {}
+[1.120223] (-) TimerEvent: {}
+[1.224212] (-) TimerEvent: {}
+[1.324839] (-) TimerEvent: {}
+[1.427353] (-) TimerEvent: {}
+[1.528502] (-) TimerEvent: {}
+[1.629427] (-) TimerEvent: {}
+[1.733211] (-) TimerEvent: {}
+[1.837010] (-) TimerEvent: {}
+[1.941077] (-) TimerEvent: {}
+[2.045146] (-) TimerEvent: {}
+[2.146407] (-) TimerEvent: {}
+[2.247161] (-) TimerEvent: {}
+[2.351089] (-) TimerEvent: {}
+[2.417379] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locsender.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LocationPublisher::callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.417726] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locsender.cpp:25:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.417814] (loc_pubsub) StderrLine: {'line': b'   25 |             \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.x = 100.0;\n'}
+[2.417876] (loc_pubsub) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.452880] (-) TimerEvent: {}
+[2.455477] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:18:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.455684] (loc_pubsub) StderrLine: {'line': b'   18 |         void callback(const std_msgs::msg::\x1b[01;31m\x1b[KPoint\x1b[m\x1b[K &msg) const{\n'}
+[2.455733] (loc_pubsub) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.461859] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:24:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.462108] (loc_pubsub) StderrLine: {'line': b'   24 | }\n'}
+[2.462184] (loc_pubsub) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.462253] (loc_pubsub) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.466879] (loc_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.467042] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.467090] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.467133] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.467169] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.467220] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.467260] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.467300] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.467343] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.467381] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.467411] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.467439] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:3\x1b[m\x1b[K:\n'}
+[2.467467] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LocSubscriber::callback(const Point&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.467498] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::x\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst _x_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst double\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.467531] (loc_pubsub) StderrLine: {'line': b'   19 |             RCLCPP_INFO(this->get_logger(), "Drone is at: ", msg.x.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K(), msg.y.c_str()\n'}
+[2.467563] (loc_pubsub) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.467597] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::y\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst _y_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst double\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.467649] (loc_pubsub) StderrLine: {'line': b'   19 |             RCLCPP_INFO(this->get_logger(), "Drone is at: ", msg.x.c_str(), msg.y.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K()\n'}
+[2.467678] (loc_pubsub) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.467707] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:20:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::z\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst _z_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst double\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.467745] (loc_pubsub) StderrLine: {'line': b'   20 |         , msg.z.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[2.467791] (loc_pubsub) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.497097] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:23:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.497325] (loc_pubsub) StderrLine: {'line': b'   23 | }\n'}
+[2.497370] (loc_pubsub) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.497401] (loc_pubsub) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.497431] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KStatSubscriber::StatSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.497471] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:13:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.497500] (loc_pubsub) StderrLine: {'line': b'   13 |                 "location", 10, [this](const std_msgs::msg::\x1b[01;31m\x1b[KPoint\x1b[m\x1b[K &msg) {callback(msg);}\n'}
+[2.497528] (loc_pubsub) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.497685] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.497944] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:14:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.498018] (loc_pubsub) StderrLine: {'line': b'   14 |             )\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[2.498097] (loc_pubsub) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.498161] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KStatSubscriber::StatSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.498217] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:14:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.498263] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:12:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.498317] (loc_pubsub) StderrLine: {'line': b'   12 |             sub = this->create_subscription<std_msgs::msg::String>\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[2.498361] (loc_pubsub) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.498403] (loc_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.498445] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.498487] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.498527] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.498567] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.498608] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.498647] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.498688] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.498731] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.498773] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.498813] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.498855] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:3\x1b[m\x1b[K:\n'}
+[2.498897] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid StatSubscriber::callback(const int&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.498938] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:19:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.499032] (loc_pubsub) StderrLine: {'line': b'   19 |             RCLCPP_INFO(this->get_logger(), msg.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.c_str());\n'}
+[2.499078] (loc_pubsub) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.553737] (-) TimerEvent: {}
+[2.655248] (-) TimerEvent: {}
+[2.756198] (-) TimerEvent: {}
+[2.858743] (-) TimerEvent: {}
+[2.962771] (-) TimerEvent: {}
+[2.995928] (loc_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stat_listener.dir/build.make:76: CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o] Error 1\n'}
+[2.996374] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stat_listener.dir/all] Error 2\n'}
+[2.996450] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.064318] (-) TimerEvent: {}
+[3.164872] (-) TimerEvent: {}
+[3.267381] (-) TimerEvent: {}
+[3.368995] (-) TimerEvent: {}
+[3.373390] (loc_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/transmitter.dir/build.make:76: CMakeFiles/transmitter.dir/src/locsender.cpp.o] Error 1\n'}
+[3.373780] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/transmitter.dir/all] Error 2\n'}
+[3.473680] (-) TimerEvent: {}
+[3.576807] (-) TimerEvent: {}
+[3.681047] (-) TimerEvent: {}
+[3.784117] (-) TimerEvent: {}
+[3.888087] (-) TimerEvent: {}
+[3.992078] (-) TimerEvent: {}
+[4.092727] (-) TimerEvent: {}
+[4.196738] (-) TimerEvent: {}
+[4.298829] (-) TimerEvent: {}
+[4.404091] (-) TimerEvent: {}
+[4.508385] (-) TimerEvent: {}
+[4.612277] (-) TimerEvent: {}
+[4.716538] (-) TimerEvent: {}
+[4.820596] (-) TimerEvent: {}
+[4.921122] (-) TimerEvent: {}
+[5.024197] (-) TimerEvent: {}
+[5.126421] (-) TimerEvent: {}
+[5.230232] (-) TimerEvent: {}
+[5.232619] (loc_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/loc_listener.dir/build.make:76: CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o] Error 1\n'}
+[5.232832] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/loc_listener.dir/all] Error 2\n'}
+[5.233104] (loc_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.235094] (loc_pubsub) CommandEnded: {'returncode': 2}
+[5.252301] (loc_pubsub) JobEnded: {'identifier': 'loc_pubsub', 'rc': 2}
+[5.263380] (-) EventReactorShutdown: {}

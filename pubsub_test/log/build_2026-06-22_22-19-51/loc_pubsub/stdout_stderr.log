@@ -1,0 +1,42 @@
+[35m[1mConsolidate compiler generated dependencies of target loc_listener[0m
+[35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[35m[1mConsolidate compiler generated dependencies of target transmitter[0m
+[ 33%] Built target transmitter
+[ 50%] [32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:24:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   24 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:3[m[K:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:[m[K In member function ‘[01m[Kvoid LocSubscriber::callback(const Point&) const[m[K’:
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:68:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Kconst _x_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   19 |             RCLCPP_INFO(this->get_logger(), "Drone is at: ", msg.x.[01;31m[Kc_str[m[K(), msg.y.c_str()
+      |                                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:83:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::y[m[K’, which is of non-class type ‘[01m[Kconst _y_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   19 |             RCLCPP_INFO(this->get_logger(), "Drone is at: ", msg.x.c_str(), msg.y.[01;31m[Kc_str[m[K()
+      |                                                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:20:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.geometry_msgs::msg::Point_<std::allocator<void> >::z[m[K’, which is of non-class type ‘[01m[Kconst _z_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   20 |         , msg.z.[01;31m[Kc_str[m[K());
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/rakmo/pubsub_test/loc_pubsub/src/statusreceiver.cpp:23:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   23 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/loc_listener.dir/build.make:76: CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/loc_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/stat_listener.dir/build.make:76: CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stat_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

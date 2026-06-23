@@ -1,0 +1,51 @@
+[0.017s] Invoking command in '/home/rakmo/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/pubsub_test/build/loc_pubsub -- -j22 -l22
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target loc_listener[0m
+[0.065s] [ 33%] Built target transmitter
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o[0m
+[0.066s] [ 66%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[2.506s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.507s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.507s]                  from [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:3[m[K:
+[2.507s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:[m[K In member function ‘[01m[Kvoid LocSubscriber::callback(const Point&) const[m[K’:
+[2.507s] [01m[K/home/rakmo/pubsub_test/loc_pubsub/src/locreceiver.cpp:19:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[2.507s]    19 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Drone is at: "[m[K, msg.x, msg.y
+[2.507s]       |                                             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.243s] [ 83%] [32m[1mLinking CXX executable stat_listener[0m
+[8.331s] [100%] [32m[1mLinking CXX executable loc_listener[0m
+[8.642s] [100%] Built target stat_listener
+[8.715s] [100%] Built target loc_listener
+[8.725s] Invoked command in '/home/rakmo/pubsub_test/build/loc_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/pubsub_test/build/loc_pubsub -- -j22 -l22
+[8.736s] Invoking command in '/home/rakmo/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rakmo/pubsub_test/build/loc_pubsub
+[8.741s] -- Install configuration: ""
+[8.742s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter
+[8.743s] -- Set runtime path of "/home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter" to ""
+[8.743s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/loc_listener
+[8.746s] -- Set runtime path of "/home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/loc_listener" to ""
+[8.746s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener
+[8.748s] -- Set runtime path of "/home/rakmo/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener" to ""
+[8.751s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/package_run_dependencies/loc_pubsub
+[8.752s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/parent_prefix_path/loc_pubsub
+[8.753s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.sh
+[8.754s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.dsv
+[8.755s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.sh
+[8.756s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.dsv
+[8.756s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.bash
+[8.757s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.sh
+[8.758s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.zsh
+[8.758s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.dsv
+[8.759s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.dsv
+[8.760s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/packages/loc_pubsub
+[8.761s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig.cmake
+[8.761s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig-version.cmake
+[8.762s] -- Installing: /home/rakmo/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.xml
+[8.765s] Invoked command in '/home/rakmo/pubsub_test/build/loc_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rakmo/pubsub_test/build/loc_pubsub
