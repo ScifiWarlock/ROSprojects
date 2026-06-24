@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_msg",
+  "non_idl_tuples": [
+    "/home/rakmo/ROSprojects/pubsub_test/src/custom_msg:msg/Stryng.msg"
+  ]
+}

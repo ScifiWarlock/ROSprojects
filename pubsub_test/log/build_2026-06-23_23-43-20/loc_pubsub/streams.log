@@ -1,0 +1,43 @@
+[0.028s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub -DCMAKE_INSTALL_PREFIX=/home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub
+[0.202s] -- The C compiler identification is GNU 11.4.0
+[0.771s] -- The CXX compiler identification is GNU 11.4.0
+[1.239s] -- Detecting C compiler ABI info
+[1.379s] -- Detecting C compiler ABI info - done
+[1.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.387s] -- Detecting C compile features
+[1.389s] -- Detecting C compile features - done
+[1.394s] -- Detecting CXX compiler ABI info
+[1.605s] -- Detecting CXX compiler ABI info - done
+[1.613s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.614s] -- Detecting CXX compile features
+[1.615s] -- Detecting CXX compile features - done
+[1.617s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.820s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.964s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.227s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.232s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.241s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.406s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.410s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.706s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.895s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.797s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.850s] -- Looking for pthread.h
+[11.081s] -- Looking for pthread.h - found
+[11.082s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.346s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.347s] -- Found Threads: TRUE  
+[11.481s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[11.520s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.643s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.643s] -- Configured cppcheck include dirs: 
+[11.643s] -- Configured cppcheck exclude dirs and/or files: 
+[11.646s] -- Added test 'lint_cmake' to check CMake code style
+[11.649s] -- Added test 'uncrustify' to check C / C++ code style
+[11.649s] -- Configured uncrustify additional arguments: 
+[11.651s] -- Added test 'xmllint' to check XML markup files
+[11.655s] -- Configuring done
+[11.680s] -- Generating done
+[11.688s] -- Build files have been written to: /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub

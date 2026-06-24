@@ -1,0 +1,6 @@
+Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rakmo/ROSprojects/pubsub_test/src/custom_msg -DCMAKE_INSTALL_PREFIX=/home/rakmo/ROSprojects/pubsub_test/install/custom_msg
+Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rakmo/ROSprojects/pubsub_test/src/custom_msg -DCMAKE_INSTALL_PREFIX=/home/rakmo/ROSprojects/pubsub_test/install/custom_msg
+Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/custom_msg -- -j22 -l22
+Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/custom_msg -- -j22 -l22
+Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/pubsub_test/build/custom_msg
+Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/pubsub_test/build/custom_msg

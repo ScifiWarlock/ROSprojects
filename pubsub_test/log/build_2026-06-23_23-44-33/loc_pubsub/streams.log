@@ -1,0 +1,10 @@
+[0.025s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22
+[0.134s] [ 33%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[0.134s] [ 33%] [32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o[0m
+[0.141s] [ 50%] [32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o[0m
+[7.206s] [ 66%] [32m[1mLinking CXX executable transmitter[0m
+[7.621s] [ 66%] Built target transmitter
+[12.103s] [ 83%] [32m[1mLinking CXX executable loc_listener[0m
+[12.133s] [100%] [32m[1mLinking CXX executable stat_listener[0m
+[12.767s] [100%] Built target loc_listener
+[12.801s] [100%] Built target stat_listener

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_msg__rs",
+		"source" : "/home/rakmo/ROSprojects/pubsub_test/build/custom_msg/custom_msg__rs"
+	}
+}

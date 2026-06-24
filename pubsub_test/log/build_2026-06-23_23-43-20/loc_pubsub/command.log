@@ -1,0 +1,1 @@
+Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub -DCMAKE_INSTALL_PREFIX=/home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub

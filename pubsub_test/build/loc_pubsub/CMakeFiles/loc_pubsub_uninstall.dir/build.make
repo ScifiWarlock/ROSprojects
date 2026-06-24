@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rakmo/pubsub_test/loc_pubsub
+CMAKE_SOURCE_DIR = /home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rakmo/pubsub_test/build/loc_pubsub
+CMAKE_BINARY_DIR = /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub
 
 # Utility rule file for loc_pubsub_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/loc_pubsub_uninstall.dir/compiler_depend.make
 include CMakeFiles/loc_pubsub_uninstall.dir/progress.make
 
 CMakeFiles/loc_pubsub_uninstall:
-	/usr/bin/cmake -P /home/rakmo/pubsub_test/build/loc_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 loc_pubsub_uninstall: CMakeFiles/loc_pubsub_uninstall
 loc_pubsub_uninstall: CMakeFiles/loc_pubsub_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/loc_pubsub_uninstall.dir/clean:
 .PHONY : CMakeFiles/loc_pubsub_uninstall.dir/clean
 
 CMakeFiles/loc_pubsub_uninstall.dir/depend:
-	cd /home/rakmo/pubsub_test/build/loc_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rakmo/pubsub_test/loc_pubsub /home/rakmo/pubsub_test/loc_pubsub /home/rakmo/pubsub_test/build/loc_pubsub /home/rakmo/pubsub_test/build/loc_pubsub /home/rakmo/pubsub_test/build/loc_pubsub/CMakeFiles/loc_pubsub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub /home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub/CMakeFiles/loc_pubsub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/loc_pubsub_uninstall.dir/depend
 

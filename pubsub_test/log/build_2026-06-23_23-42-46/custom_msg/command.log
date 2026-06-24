@@ -1,0 +1,1 @@
+Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rakmo/ROSprojects/pubsub_test/src/custom_msg -DCMAKE_INSTALL_PREFIX=/home/rakmo/ROSprojects/pubsub_test/install/custom_msg

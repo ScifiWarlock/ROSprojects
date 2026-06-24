@@ -1,0 +1,6 @@
+[0.032s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22
+[0.076s] [0mCMake Error: The current CMakeCache.txt directory /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub/CMakeCache.txt is different than the directory /home/rakmo/pubsub_test/build/loc_pubsub where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.097s] [0mCMake Error: The source directory "/home/rakmo/pubsub_test/loc_pubsub" does not exist.
+[0.097s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.098s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.102s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22

@@ -1,0 +1,9 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/loc_listener.dir/src/locreceiver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable transmitter[0m
+[ 66%] Built target transmitter
+[ 83%] [32m[1mLinking CXX executable loc_listener[0m
+[100%] [32m[1mLinking CXX executable stat_listener[0m
+[100%] Built target loc_listener
+[100%] Built target stat_listener

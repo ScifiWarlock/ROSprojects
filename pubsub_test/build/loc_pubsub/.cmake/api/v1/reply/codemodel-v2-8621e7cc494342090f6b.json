@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-071bab86ceb94282a4f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "loc_pubsub",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "loc_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-loc_listener-a9373021d016ac164fa1.json",
+					"name" : "loc_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "loc_pubsub_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-loc_pubsub_uninstall-7098dc120b19fe87953c.json",
+					"name" : "loc_pubsub_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stat_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stat_listener-23fbf395be0bbe295183.json",
+					"name" : "stat_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "transmitter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-transmitter-bf4ddd99cf9567d953ab.json",
+					"name" : "transmitter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-68f47661d6491a55b7fc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub",
+		"source" : "/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

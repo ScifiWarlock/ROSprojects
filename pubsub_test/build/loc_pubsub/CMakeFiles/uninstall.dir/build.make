@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rakmo/pubsub_test/loc_pubsub
+CMAKE_SOURCE_DIR = /home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rakmo/pubsub_test/build/loc_pubsub
+CMAKE_BINARY_DIR = /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rakmo/pubsub_test/build/loc_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rakmo/pubsub_test/loc_pubsub /home/rakmo/pubsub_test/loc_pubsub /home/rakmo/pubsub_test/build/loc_pubsub /home/rakmo/pubsub_test/build/loc_pubsub /home/rakmo/pubsub_test/build/loc_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub /home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
