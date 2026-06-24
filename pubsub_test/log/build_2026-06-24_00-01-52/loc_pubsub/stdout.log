@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[35m[1mConsolidate compiler generated dependencies of target transmitter[0m
+[ 33%] Built target loc_listener
+[ 50%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o[0m

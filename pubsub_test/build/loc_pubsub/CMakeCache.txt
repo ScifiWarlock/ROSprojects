@@ -272,7 +272,7 @@ SITE:STRING=MacbookPro
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -363,6 +363,12 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
+
+//The directory containing a CMake configuration file for custom_msg.
+custom_msg_DIR:PATH=/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake
+
+//The directory containing a CMake configuration file for custom_msgs.
+custom_msgs_DIR:PATH=custom_msgs_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr

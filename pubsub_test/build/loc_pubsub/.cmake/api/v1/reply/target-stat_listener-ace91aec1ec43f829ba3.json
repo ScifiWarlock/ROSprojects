@@ -30,19 +30,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 32,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 35,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 33,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
@@ -100,6 +100,11 @@
 			],
 			"includes" : 
 			[
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg"
+				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
@@ -262,7 +267,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/opt/ros/humble/lib:",
+				"fragment" : "-Wl,-rpath,/opt/ros/humble/lib:/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib:",
 				"role" : "libraries"
 			},
 			{
@@ -272,32 +277,32 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so",
+				"fragment" : "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so",
+				"fragment" : "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
+				"fragment" : "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
+				"fragment" : "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"fragment" : "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so",
+				"fragment" : "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_py.so",
 				"role" : "libraries"
 			},
 			{
@@ -433,11 +438,21 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so",
 				"role" : "libraries"
 			},
 			{
 				"fragment" : "/opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -457,7 +472,17 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -473,6 +498,11 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
@@ -482,7 +512,22 @@
 			},
 			{
 				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{

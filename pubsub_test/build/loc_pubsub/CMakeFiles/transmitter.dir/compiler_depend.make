@@ -685,12 +685,14 @@ CMakeFiles/transmitter.dir/src/locsender.cpp.o: /home/rakmo/ROSprojects/pubsub_t
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/stryng.hpp \
+  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__builder.hpp \
+  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.hpp \
+  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
@@ -707,11 +709,13 @@ CMakeFiles/transmitter.dir/src/locsender.cpp.o: /home/rakmo/ROSprojects/pubsub_t
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp:
+/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+
+/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__builder.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
 
@@ -1077,6 +1081,8 @@ CMakeFiles/transmitter.dir/src/locsender.cpp.o: /home/rakmo/ROSprojects/pubsub_t
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
+/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__traits.hpp:
+
 /usr/include/asm-generic/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
@@ -1140,8 +1146,6 @@ CMakeFiles/transmitter.dir/src/locsender.cpp.o: /home/rakmo/ROSprojects/pubsub_t
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
@@ -1240,6 +1244,8 @@ CMakeFiles/transmitter.dir/src/locsender.cpp.o: /home/rakmo/ROSprojects/pubsub_t
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
 
 /usr/include/c++/11/cwchar:
+
+/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -1671,8 +1677,6 @@ CMakeFiles/transmitter.dir/src/locsender.cpp.o: /home/rakmo/ROSprojects/pubsub_t
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
-
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 
 /opt/ros/humble/include/rmw/rmw/ret_types.h:
@@ -1900,6 +1904,8 @@ CMakeFiles/transmitter.dir/src/locsender.cpp.o: /home/rakmo/ROSprojects/pubsub_t
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
+
+/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/stryng.hpp:
 
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
