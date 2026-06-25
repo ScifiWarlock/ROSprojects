@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target transmitter[0m
+[ 33%] Built target loc_listener
+[ 66%] Built target stat_listener
+[ 83%] [32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o[0m
+[01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:[m[K In lambda function:
+[01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:23:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   23 |             auto cb = [this]([01;35m[Kconst rclcpp::Parameter & p[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[100%] [32m[1mLinking CXX executable transmitter[0m
+[100%] Built target transmitter
+-- Install configuration: ""
+-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter
+-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter" to ""
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/loc_listener
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/package_run_dependencies/loc_pubsub
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/parent_prefix_path/loc_pubsub
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.sh
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.dsv
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.bash
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.sh
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.zsh
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.dsv
+-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.dsv
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/packages/loc_pubsub
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig.cmake
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig-version.cmake
+-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.xml

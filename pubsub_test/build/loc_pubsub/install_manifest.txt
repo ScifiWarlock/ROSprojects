@@ -1,6 +1,7 @@
 /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter
 /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/loc_listener
 /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener
+/home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub//launch/_launch.xml
 /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/package_run_dependencies/loc_pubsub
 /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/parent_prefix_path/loc_pubsub
 /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.sh

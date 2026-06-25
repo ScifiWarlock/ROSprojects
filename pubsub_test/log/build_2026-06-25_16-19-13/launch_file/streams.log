@@ -1,0 +1,33 @@
+[0.029s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/launch_file': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rakmo/ROSprojects/pubsub_test/src/launch_file -DCMAKE_INSTALL_PREFIX=/home/rakmo/ROSprojects/pubsub_test/install/launch_file
+[0.422s] -- The C compiler identification is GNU 11.4.0
+[1.224s] -- The CXX compiler identification is GNU 11.4.0
+[1.835s] -- Detecting C compiler ABI info
+[2.058s] -- Detecting C compiler ABI info - done
+[2.066s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.095s] -- Detecting C compile features
+[2.096s] -- Detecting C compile features - done
+[2.103s] -- Detecting CXX compiler ABI info
+[2.355s] -- Detecting CXX compiler ABI info - done
+[2.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.366s] -- Detecting CXX compile features
+[2.367s] -- Detecting CXX compile features - done
+[2.413s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.621s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.778s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.897s] -- Added test 'lint_cmake' to check CMake code style
+[2.900s] -- Added test 'xmllint' to check XML markup files
+[2.902s] -- Configuring done
+[2.909s] -- Generating done
+[2.912s] -- Build files have been written to: /home/rakmo/ROSprojects/pubsub_test/build/launch_file
+[2.918s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/launch_file' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rakmo/ROSprojects/pubsub_test/src/launch_file -DCMAKE_INSTALL_PREFIX=/home/rakmo/ROSprojects/pubsub_test/install/launch_file
+[2.921s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/launch_file': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/launch_file -- -j22 -l22
+[2.965s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/launch_file' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/launch_file -- -j22 -l22
+[2.966s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/launch_file': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/pubsub_test/build/launch_file
+[2.976s] -- Install configuration: ""
+[2.976s] [31mCMake Error at cmake_install.cmake:46 (file):
+[2.976s]   file INSTALL cannot find
+[2.976s]   "/home/rakmo/ROSprojects/pubsub_test/src/launch_file/launch": No such file
+[2.976s]   or directory.
+[2.977s] 
+[2.977s] [0m
+[2.978s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/launch_file' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/pubsub_test/build/launch_file

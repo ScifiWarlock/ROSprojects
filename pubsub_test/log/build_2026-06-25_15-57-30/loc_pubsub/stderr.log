@@ -1,0 +1,4 @@
+[01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:[m[K In lambda function:
+[01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:23:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   23 |             auto cb = [this]([01;35m[Kconst rclcpp::Parameter & p[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K

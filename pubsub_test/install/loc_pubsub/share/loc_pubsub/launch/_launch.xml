@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node pkg="loc_pubsub" exec="transmitter" name="loc_pubslisher"/>
+  <node pkg ="loc_pubsub" exec = "loc_listener" name = "location_subscriber"/>
+  <node pkg = "loc_pubsub" exec = "stat_listener" name = "status_subscriber"/>
+</launch>

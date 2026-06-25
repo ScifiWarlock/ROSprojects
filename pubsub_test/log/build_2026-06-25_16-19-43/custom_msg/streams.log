@@ -1,0 +1,24 @@
+[0.056s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/custom_msg -- -j22 -l22
+[0.104s] [  3%] Built target custom_msg__cpp
+[0.111s] [ 12%] Built target custom_msg__rs
+[0.111s] [ 15%] Built target custom_msg__rosidl_generator_c
+[0.141s] [ 15%] Built target ament_cmake_python_copy_custom_msg
+[0.147s] [ 25%] Built target custom_msg__rosidl_typesupport_introspection_cpp
+[0.149s] [ 34%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp
+[0.151s] [ 43%] Built target custom_msg__rosidl_typesupport_cpp
+[0.174s] [ 53%] Built target custom_msg__rosidl_typesupport_fastrtps_c
+[0.178s] [ 62%] Built target custom_msg__rosidl_typesupport_c
+[0.179s] [ 71%] Built target custom_msg__rosidl_typesupport_introspection_c
+[0.206s] [ 71%] Built target custom_msg
+[0.235s] [ 75%] Built target custom_msg__py
+[0.262s] [ 81%] Built target custom_msg__rosidl_generator_py
+[0.292s] [ 87%] Built target custom_msg__rosidl_typesupport_c__pyext
+[0.293s] [ 93%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext
+[0.296s] [100%] Built target custom_msg__rosidl_typesupport_introspection_c__pyext
+[0.520s] running egg_info
+[0.521s] writing custom_msg.egg-info/PKG-INFO
+[0.521s] writing dependency_links to custom_msg.egg-info/dependency_links.txt
+[0.521s] writing top-level names to custom_msg.egg-info/top_level.txt
+[0.524s] reading manifest file 'custom_msg.egg-info/SOURCES.txt'
+[0.525s] writing manifest file 'custom_msg.egg-info/SOURCES.txt'
+[0.560s] [100%] Built target ament_cmake_python_build_custom_msg_egg

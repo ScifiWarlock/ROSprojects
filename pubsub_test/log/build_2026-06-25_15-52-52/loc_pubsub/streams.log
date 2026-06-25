@@ -1,0 +1,22 @@
+[0.022s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[0.175s] [ 33%] Built target loc_listener
+[0.180s] [ 50%] [32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o[0m
+[0.191s] [ 83%] Built target stat_listener
+[2.722s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:[m[K In constructor ‘[01m[KLocationPublisher::LocationPublisher()[m[K’:
+[2.722s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_subscriber_[m[K’ was not declared in this scope
+[2.722s]    22 |             [01;31m[Kparam_subscriber_[m[K = std::make_shared<rclcpp::ParameterEventHandler>(this);
+[2.722s]       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.725s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:[m[K In lambda function:
+[2.725s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:23:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.725s]    23 |             auto cb = [this]([01;35m[Kconst rclcpp::Parameter & p[m[K) {
+[2.725s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.731s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:[m[K In constructor ‘[01m[KLocationPublisher::LocationPublisher()[m[K’:
+[2.731s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:27:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb_handle_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksa_handler[m[K’?
+[2.731s]    27 |             [01;31m[Kcb_handle_[m[K = param_subscriber_->add_parameter_callback("drone_status", cb);
+[2.731s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.731s]       |             [32m[Ksa_handler[m[K
+[5.585s] gmake[2]: *** [CMakeFiles/transmitter.dir/build.make:76: CMakeFiles/transmitter.dir/src/locsender.cpp.o] Error 1
+[5.585s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/transmitter.dir/all] Error 2
+[5.586s] gmake: *** [Makefile:146: all] Error 2
+[5.588s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22
