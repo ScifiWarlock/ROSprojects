@@ -14,9 +14,7 @@
 
 // Include directives for member types
 // Member `message`
-#include "std_msgs/msg/string.h"
-// Member `message`
-#include "std_msgs/msg/detail/string__rosidl_typesupport_introspection_c.h"
+#include "rosidl_runtime_c/string_functions.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -40,9 +38,9 @@ void custom_msg__msg__Stryng__rosidl_typesupport_introspection_c__Stryng_fini_fu
 static rosidl_typesupport_introspection_c__MessageMember custom_msg__msg__Stryng__rosidl_typesupport_introspection_c__Stryng_message_member_array[1] = {
   {
     "message",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
-    NULL,  // members of sub message (initialized later)
+    NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -78,8 +76,6 @@ static rosidl_message_type_support_t custom_msg__msg__Stryng__rosidl_typesupport
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_custom_msg
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, custom_msg, msg, Stryng)() {
-  custom_msg__msg__Stryng__rosidl_typesupport_introspection_c__Stryng_message_member_array[0].members_ =
-    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, String)();
   if (!custom_msg__msg__Stryng__rosidl_typesupport_introspection_c__Stryng_message_type_support_handle.typesupport_identifier) {
     custom_msg__msg__Stryng__rosidl_typesupport_introspection_c__Stryng_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

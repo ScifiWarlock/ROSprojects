@@ -621,9 +621,7 @@ CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/stryng.hpp \
  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__builder.hpp \
  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__traits.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.hpp \
  /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_generator_cpp__visibility_control.hpp

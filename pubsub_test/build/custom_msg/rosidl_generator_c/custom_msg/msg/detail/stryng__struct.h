@@ -19,12 +19,12 @@ extern "C"
 
 // Include directives for member types
 // Member 'message'
-#include "std_msgs/msg/detail/string__struct.h"
+#include "rosidl_runtime_c/string.h"
 
 /// Struct defined in msg/Stryng in the package custom_msg.
 typedef struct custom_msg__msg__Stryng
 {
-  std_msgs__msg__String message;
+  rosidl_runtime_c__String message;
 } custom_msg__msg__Stryng;
 
 // Struct for a sequence of custom_msg__msg__Stryng.

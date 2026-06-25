@@ -34,23 +34,10 @@ extern "C"
 {
 #endif
 
-#include "std_msgs/msg/detail/string__functions.h"  // message
+#include "rosidl_runtime_c/string.h"  // message
+#include "rosidl_runtime_c/string_functions.h"  // message
 
 // forward declare type support functions
-ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_custom_msg
-size_t get_serialized_size_std_msgs__msg__String(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_custom_msg
-size_t max_serialized_size_std_msgs__msg__String(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_custom_msg
-const rosidl_message_type_support_t *
-  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, std_msgs, msg, String)();
 
 
 using _Stryng__ros_msg_type = custom_msg__msg__Stryng;
@@ -66,16 +53,16 @@ static bool _Stryng__cdr_serialize(
   const _Stryng__ros_msg_type * ros_message = static_cast<const _Stryng__ros_msg_type *>(untyped_ros_message);
   // Field name: message
   {
-    const message_type_support_callbacks_t * callbacks =
-      static_cast<const message_type_support_callbacks_t *>(
-      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, std_msgs, msg, String
-      )()->data);
-    if (!callbacks->cdr_serialize(
-        &ros_message->message, cdr))
-    {
+    const rosidl_runtime_c__String * str = &ros_message->message;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
       return false;
     }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
   }
 
   return true;
@@ -92,14 +79,16 @@ static bool _Stryng__cdr_deserialize(
   _Stryng__ros_msg_type * ros_message = static_cast<_Stryng__ros_msg_type *>(untyped_ros_message);
   // Field name: message
   {
-    const message_type_support_callbacks_t * callbacks =
-      static_cast<const message_type_support_callbacks_t *>(
-      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
-        rosidl_typesupport_fastrtps_c, std_msgs, msg, String
-      )()->data);
-    if (!callbacks->cdr_deserialize(
-        cdr, &ros_message->message))
-    {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->message.data) {
+      rosidl_runtime_c__String__init(&ros_message->message);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->message,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'message'\n");
       return false;
     }
   }
@@ -122,9 +111,9 @@ size_t get_serialized_size_custom_msg__msg__Stryng(
   (void)wchar_size;
 
   // field.name message
-
-  current_alignment += get_serialized_size_std_msgs__msg__String(
-    &(ros_message->message), current_alignment);
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->message.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -158,19 +147,12 @@ size_t max_serialized_size_custom_msg__msg__Stryng(
   {
     size_t array_size = 1;
 
-
-    last_member_size = 0;
+    full_bounded = false;
+    is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
-      bool inner_full_bounded;
-      bool inner_is_plain;
-      size_t inner_size;
-      inner_size =
-        max_serialized_size_std_msgs__msg__String(
-        inner_full_bounded, inner_is_plain, current_alignment);
-      last_member_size += inner_size;
-      current_alignment += inner_size;
-      full_bounded &= inner_full_bounded;
-      is_plain &= inner_is_plain;
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
     }
   }
 

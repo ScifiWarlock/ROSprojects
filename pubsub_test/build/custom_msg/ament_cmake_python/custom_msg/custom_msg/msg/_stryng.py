@@ -42,10 +42,6 @@ class Metaclass_Stryng(type):
             cls._TYPE_SUPPORT = module.type_support_msg__msg__stryng
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__stryng
 
-            from std_msgs.msg import String
-            if String.__class__._TYPE_SUPPORT is None:
-                String.__class__.__import_type_support__()
-
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
@@ -63,19 +59,18 @@ class Stryng(metaclass=Metaclass_Stryng):
     ]
 
     _fields_and_field_types = {
-        'message': 'std_msgs/String',
+        'message': 'string',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'String'),  # noqa: E501
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        from std_msgs.msg import String
-        self.message = kwargs.get('message', String())
+        self.message = kwargs.get('message', str())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -123,8 +118,7 @@ class Stryng(metaclass=Metaclass_Stryng):
     @message.setter
     def message(self, value):
         if __debug__:
-            from std_msgs.msg import String
             assert \
-                isinstance(value, String), \
-                "The 'message' field must be a sub message of type 'String'"
+                isinstance(value, str), \
+                "The 'message' field must be of type 'str'"
         self._message = value

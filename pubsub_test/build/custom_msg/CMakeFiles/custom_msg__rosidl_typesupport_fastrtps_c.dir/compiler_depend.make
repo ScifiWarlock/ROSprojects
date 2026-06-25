@@ -223,14 +223,14 @@ CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/malloc.h \
   rosidl_generator_c/custom_msg/msg/detail/stryng__struct.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   rosidl_generator_c/custom_msg/msg/detail/stryng__functions.h \
   /usr/include/c++/11/stdlib.h \
   rosidl_generator_c/custom_msg/msg/rosidl_generator_c__visibility_control.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__functions.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
 
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
 rosidl_generator_c/custom_msg/msg/rosidl_generator_c__visibility_control.h:
 
@@ -432,8 +432,6 @@ rosidl_generator_c/custom_msg/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/c++/11/initializer_list:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
@@ -541,8 +539,6 @@ rosidl_typesupport_fastrtps_c/custom_msg/msg/detail/stryng__type_support_c.cpp:
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__functions.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -681,8 +677,6 @@ rosidl_typesupport_fastrtps_c/custom_msg/msg/rosidl_typesupport_fastrtps_c__visi
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
 /usr/include/c++/11/ext/alloc_traits.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 

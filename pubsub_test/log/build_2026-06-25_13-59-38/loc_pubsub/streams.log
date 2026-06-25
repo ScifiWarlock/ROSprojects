@@ -1,0 +1,27 @@
+[0.029s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[0.107s] [ 33%] Built target transmitter
+[0.107s] [ 66%] Built target loc_listener
+[0.112s] [ 83%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[3.870s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.870s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.870s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.870s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.871s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.871s]                  from [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/statusreceiver.cpp:3[m[K:
+[3.871s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/statusreceiver.cpp:[m[K In member function ‘[01m[Kvoid StatSubscriber::callback(const Stryng&) const[m[K’:
+[3.871s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/statusreceiver.cpp:19:60:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [13][m[K’ and ‘[01m[Kconst char*[m[K’ to binary ‘[01m[Koperator+[m[K’
+[3.871s]    19 |             RCLCPP_INFO(this->get_logger(), [32m[K"Drone stat: "[m[K [01;31m[K+[m[K [34m[Kmsg.message.c_str()[m[K);
+[3.871s]       |                                             [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~~~~~[m[K
+[3.871s]       |                                             [32m[K|[m[K                                 [34m[K|[m[K
+[3.871s]       |                                             [32m[Kconst char [13][m[K                   [34m[Kconst char*[m[K
+[7.772s] gmake[2]: *** [CMakeFiles/stat_listener.dir/build.make:76: CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o] Error 1
+[7.772s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stat_listener.dir/all] Error 2
+[7.773s] gmake: *** [Makefile:146: all] Error 2
+[7.780s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22

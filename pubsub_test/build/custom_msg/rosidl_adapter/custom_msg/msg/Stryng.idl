@@ -2,12 +2,11 @@
 // with input from custom_msg/msg/Stryng.msg
 // generated code does not contain a copyright notice
 
-#include "std_msgs/msg/String.idl"
 
 module custom_msg {
   module msg {
     struct Stryng {
-      std_msgs::msg::String message;
+      string message;
     };
   };
 };

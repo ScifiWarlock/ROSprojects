@@ -1,0 +1,232 @@
+[0.039s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/custom_msg -- -j22 -l22
+[0.100s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.337s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.605s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.610s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.627s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.677s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.724s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.104s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.828s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.863s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.863s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.863s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.004s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.051s] -- Added test 'lint_cmake' to check CMake code style
+[2.053s] -- Added test 'xmllint' to check XML markup files
+[2.060s] -- Configuring done
+[2.173s] -- Generating done
+[2.212s] -- Build files have been written to: /home/rakmo/ROSprojects/pubsub_test/build/custom_msg
+[2.249s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.266s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.272s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.292s] [  9%] Built target ament_cmake_python_copy_custom_msg
+[2.623s] [  9%] Built target custom_msg__rs
+[2.638s] [  9%] Built target custom_msg__cpp
+[2.652s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.654s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_generator_c[0m
+[2.654s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.655s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.673s] [ 21%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/msg/detail/stryng__functions.c.o[0m
+[2.708s] running egg_info
+[2.710s] writing custom_msg.egg-info/PKG-INFO
+[2.710s] writing dependency_links to custom_msg.egg-info/dependency_links.txt
+[2.711s] writing top-level names to custom_msg.egg-info/top_level.txt
+[2.717s] reading manifest file 'custom_msg.egg-info/SOURCES.txt'
+[2.719s] writing manifest file 'custom_msg.egg-info/SOURCES.txt'
+[2.765s] [ 21%] Built target ament_cmake_python_build_custom_msg_egg
+[2.766s] [ 25%] [32m[1mLinking C shared library libcustom_msg__rosidl_generator_c.so[0m
+[2.949s] [ 25%] Built target custom_msg__rosidl_generator_c
+[2.964s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.964s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.965s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.978s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_cpp[0m
+[2.993s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_fastrtps_cpp[0m
+[2.993s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_introspection_cpp[0m
+[2.996s] [ 37%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/msg/stryng__type_support.cpp.o[0m
+[3.011s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/msg/detail/stryng__type_support.cpp.o[0m
+[3.011s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/msg/detail/dds_fastrtps/stryng__type_support.cpp.o[0m
+[3.282s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_c[0m
+[3.297s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/msg/stryng__type_support.cpp.o[0m
+[3.310s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_introspection_c[0m
+[3.319s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_fastrtps_c[0m
+[3.327s] [ 50%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/msg/detail/stryng__type_support.c.o[0m
+[3.339s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/msg/detail/stryng__type_support_c.cpp.o[0m
+[3.356s] [ 56%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_c.so[0m
+[3.386s] [ 59%] [32m[1mLinking C shared library libcustom_msg__rosidl_typesupport_introspection_c.so[0m
+[3.482s] [ 62%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_cpp.so[0m
+[3.535s] [ 62%] Built target custom_msg__rosidl_typesupport_c
+[3.537s] [ 62%] Built target custom_msg__rosidl_typesupport_introspection_c
+[3.652s] [ 62%] Built target custom_msg__rosidl_typesupport_cpp
+[3.690s] [ 65%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_introspection_cpp.so[0m
+[3.711s] [ 68%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.912s] [ 71%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_c.so[0m
+[3.926s] [ 71%] Built target custom_msg__rosidl_typesupport_introspection_cpp
+[3.952s] [ 71%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp
+[4.126s] [ 71%] Built target custom_msg__rosidl_typesupport_fastrtps_c
+[4.152s] [ 71%] Built target custom_msg
+[4.180s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.605s] [ 75%] Built target custom_msg__py
+[4.619s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_generator_py[0m
+[4.637s] [ 78%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_py.dir/rosidl_generator_py/custom_msg/msg/_stryng_s.c.o[0m
+[4.780s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg/libcustom_msg__rosidl_generator_py.so[0m
+[5.006s] [ 81%] Built target custom_msg__rosidl_generator_py
+[5.017s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.018s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_introspection_c__pyext[0m
+[5.018s] [35m[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_c__pyext[0m
+[5.036s] [ 84%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[5.036s] [ 87%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.036s] [ 90%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.173s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.181s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.193s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.313s] [100%] Built target custom_msg__rosidl_typesupport_introspection_c__pyext
+[5.316s] [100%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext
+[5.369s] [100%] Built target custom_msg__rosidl_typesupport_c__pyext
+[5.388s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/custom_msg -- -j22 -l22
+[5.404s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/pubsub_test/build/custom_msg
+[5.414s] -- Install configuration: ""
+[5.414s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/rosidl_interfaces/custom_msg
+[5.415s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg
+[5.415s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg
+[5.415s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_generator_c__visibility_control.h
+[5.415s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail
+[5.415s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__struct.h
+[5.416s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.h
+[5.416s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__functions.h
+[5.416s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__functions.c
+[5.416s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/stryng.h
+[5.416s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/library_path.sh
+[5.416s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/library_path.dsv
+[5.417s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so
+[5.418s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so" to ""
+[5.418s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg
+[5.418s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg
+[5.418s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.418s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail
+[5.418s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__rosidl_typesupport_fastrtps_c.h
+[5.420s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so
+[5.421s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[5.422s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg
+[5.422s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg
+[5.422s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail
+[5.422s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.hpp
+[5.422s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__traits.hpp
+[5.422s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__builder.hpp
+[5.422s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__struct.hpp
+[5.422s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/stryng.hpp
+[5.423s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.423s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg
+[5.423s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg
+[5.423s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail
+[5.423s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/dds_fastrtps
+[5.423s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__rosidl_typesupport_fastrtps_cpp.hpp
+[5.423s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.424s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so
+[5.424s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.424s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg
+[5.424s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg
+[5.424s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.424s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail
+[5.424s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.c
+[5.425s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__rosidl_typesupport_introspection_c.h
+[5.425s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so
+[5.425s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so" to ""
+[5.426s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so
+[5.426s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so" to ""
+[5.427s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg
+[5.427s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg
+[5.427s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail
+[5.427s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.cpp
+[5.427s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__rosidl_typesupport_introspection_cpp.hpp
+[5.428s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so
+[5.429s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[5.429s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so
+[5.430s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so" to ""
+[5.430s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/pythonpath.sh
+[5.430s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/pythonpath.dsv
+[5.431s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info
+[5.431s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.431s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[5.432s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/top_level.txt
+[5.432s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.432s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg
+[5.433s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/libcustom_msg__rosidl_generator_py.so
+[5.433s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.433s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c
+[5.433s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/__init__.py
+[5.433s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/_custom_msg_s.ep.rosidl_typesupport_introspection_c.c
+[5.434s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg
+[5.434s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/__init__.py
+[5.434s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/_stryng_s.c
+[5.434s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/_stryng.py
+[5.434s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.434s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.435s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.489s] Listing '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg'...
+[5.489s] Compiling '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/__init__.py'...
+[5.489s] Listing '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg'...
+[5.489s] Compiling '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/__init__.py'...
+[5.489s] Compiling '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/_stryng.py'...
+[5.495s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.496s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.496s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.496s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.496s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.497s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.497s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_py.so
+[5.498s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_py.so" to ""
+[5.498s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/rust_packages/custom_msg
+[5.498s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust
+[5.499s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src
+[5.499s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src/msg
+[5.499s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src/msg/rmw.rs
+[5.499s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src/msg.rs
+[5.499s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src/lib.rs
+[5.500s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/build.rs
+[5.500s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/Cargo.toml
+[5.500s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/msg/Stryng.idl
+[5.501s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/msg/Stryng.msg
+[5.501s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/package_run_dependencies/custom_msg
+[5.501s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/parent_prefix_path/custom_msg
+[5.502s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/ament_prefix_path.sh
+[5.502s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/ament_prefix_path.dsv
+[5.502s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/path.sh
+[5.502s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/path.dsv
+[5.502s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/local_setup.bash
+[5.502s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/local_setup.sh
+[5.502s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/local_setup.zsh
+[5.503s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/local_setup.dsv
+[5.503s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/package.dsv
+[5.503s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/packages/custom_msg
+[5.503s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_cExport.cmake
+[5.503s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_cExport-noconfig.cmake
+[5.503s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[5.503s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.503s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_cppExport.cmake
+[5.503s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.504s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.504s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport.cmake
+[5.504s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.505s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport.cmake
+[5.505s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport-noconfig.cmake
+[5.506s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport.cmake
+[5.506s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.506s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport.cmake
+[5.506s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[5.507s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_pyExport.cmake
+[5.507s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_pyExport-noconfig.cmake
+[5.508s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/rosidl_cmake-extras.cmake
+[5.508s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.508s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.508s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[5.509s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_targets-extras.cmake
+[5.509s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.509s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.509s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msgConfig.cmake
+[5.509s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msgConfig-version.cmake
+[5.509s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/package.xml
+[5.513s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/pubsub_test/build/custom_msg

@@ -1,0 +1,30 @@
+[0.021s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[0.092s] [ 33%] Built target loc_listener
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[0.106s] [ 83%] Built target transmitter
+[12.825s] [100%] [32m[1mLinking CXX executable stat_listener[0m
+[13.486s] [100%] Built target stat_listener
+[13.521s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22
+[13.525s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub
+[13.537s] -- Install configuration: ""
+[13.538s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/transmitter
+[13.539s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/loc_listener
+[13.539s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener
+[13.545s] -- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/lib/loc_pubsub/stat_listener" to ""
+[13.546s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/package_run_dependencies/loc_pubsub
+[13.546s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/parent_prefix_path/loc_pubsub
+[13.546s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.sh
+[13.546s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/ament_prefix_path.dsv
+[13.547s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.sh
+[13.547s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/environment/path.dsv
+[13.547s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.bash
+[13.547s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.sh
+[13.547s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.zsh
+[13.547s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/local_setup.dsv
+[13.547s] -- Installing: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.dsv
+[13.547s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/ament_index/resource_index/packages/loc_pubsub
+[13.548s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig.cmake
+[13.548s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/cmake/loc_pubsubConfig-version.cmake
+[13.548s] -- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/loc_pubsub/share/loc_pubsub/package.xml
+[13.551s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub

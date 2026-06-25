@@ -183,10 +183,8 @@ CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/malloc.h \
  /home/rakmo/ROSprojects/pubsub_test/build/custom_msg/rosidl_generator_c/custom_msg/msg/detail/stryng__struct.h \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /home/rakmo/ROSprojects/pubsub_test/build/custom_msg/rosidl_generator_c/custom_msg/msg/detail/stryng__functions.h \
  /usr/include/c++/11/stdlib.h \
  /home/rakmo/ROSprojects/pubsub_test/build/custom_msg/rosidl_generator_c/custom_msg/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__functions.h \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h

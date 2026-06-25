@@ -64,26 +64,10 @@ CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   rosidl_generator_c/custom_msg/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/custom_msg/msg/detail/stryng__struct.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__functions.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__rosidl_typesupport_introspection_c.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
 
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__functions.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.h:
 
 rosidl_generator_c/custom_msg/msg/detail/stryng__struct.h:
 
@@ -103,8 +87,6 @@ rosidl_generator_c/custom_msg/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__rosidl_typesupport_introspection_c.h:
-
 rosidl_typesupport_introspection_c/custom_msg/msg/detail/stryng__rosidl_typesupport_introspection_c.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
@@ -112,6 +94,8 @@ rosidl_typesupport_introspection_c/custom_msg/msg/detail/stryng__rosidl_typesupp
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
@@ -134,8 +118,6 @@ rosidl_typesupport_introspection_c/custom_msg/msg/detail/stryng__rosidl_typesupp
 rosidl_typesupport_introspection_c/custom_msg/msg/detail/stryng__type_support.c:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/string.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 

@@ -249,12 +249,14 @@ CMakeFiles/custom_msg__rosidl_generator_py.dir/rosidl_generator_py/custom_msg/ms
   /usr/include/python3.10/numpy/__multiarray_api.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/custom_msg/msg/detail/stryng__struct.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/custom_msg/msg/detail/stryng__functions.h \
-  rosidl_generator_c/custom_msg/msg/rosidl_generator_c__visibility_control.h
+  rosidl_generator_c/custom_msg/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
 
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
 rosidl_generator_c/custom_msg/msg/rosidl_generator_c__visibility_control.h:
 
@@ -465,8 +467,6 @@ rosidl_generator_c/custom_msg/msg/detail/stryng__struct.h:
 /usr/include/python3.10/setobject.h:
 
 /usr/include/string.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 

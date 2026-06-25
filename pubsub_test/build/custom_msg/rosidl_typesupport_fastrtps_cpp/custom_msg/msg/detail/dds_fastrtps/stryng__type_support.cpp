@@ -16,30 +16,6 @@
 
 
 // forward declaration of message dependencies and their conversion functions
-namespace std_msgs
-{
-namespace msg
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const std_msgs::msg::String &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  std_msgs::msg::String &);
-size_t get_serialized_size(
-  const std_msgs::msg::String &,
-  size_t current_alignment);
-size_t
-max_serialized_size_String(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace msg
-}  // namespace std_msgs
-
 
 namespace custom_msg
 {
@@ -57,9 +33,7 @@ cdr_serialize(
   eprosima::fastcdr::Cdr & cdr)
 {
   // Member: message
-  std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
-    ros_message.message,
-    cdr);
+  cdr << ros_message.message;
   return true;
 }
 
@@ -70,8 +44,7 @@ cdr_deserialize(
   custom_msg::msg::Stryng & ros_message)
 {
   // Member: message
-  std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
-    cdr, ros_message.message);
+  cdr >> ros_message.message;
 
   return true;
 }  // NOLINT(readability/fn_size)
@@ -90,10 +63,9 @@ get_serialized_size(
   (void)wchar_size;
 
   // Member: message
-
-  current_alignment +=
-    std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
-    ros_message.message, current_alignment);
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.message.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -122,18 +94,12 @@ max_serialized_size_Stryng(
   {
     size_t array_size = 1;
 
-
-    last_member_size = 0;
+    full_bounded = false;
+    is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
-      bool inner_full_bounded;
-      bool inner_is_plain;
-      size_t inner_size =
-        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_String(
-        inner_full_bounded, inner_is_plain, current_alignment);
-      last_member_size += inner_size;
-      current_alignment += inner_size;
-      full_bounded &= inner_full_bounded;
-      is_plain &= inner_is_plain;
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
     }
   }
 

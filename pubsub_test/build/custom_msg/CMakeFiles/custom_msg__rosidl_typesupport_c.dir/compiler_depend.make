@@ -30,7 +30,6 @@ CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/custom_msg/msg/detail/stryng__type_support.h \
@@ -52,8 +51,6 @@ rosidl_generator_c/custom_msg/msg/detail/stryng__type_support.h:
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.h:
 
 /usr/include/features.h:
 

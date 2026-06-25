@@ -16,10 +16,9 @@
 #include "custom_msg/msg/detail/stryng__struct.h"
 #include "custom_msg/msg/detail/stryng__functions.h"
 
-ROSIDL_GENERATOR_C_IMPORT
-bool std_msgs__msg__string__convert_from_py(PyObject * _pymsg, void * _ros_message);
-ROSIDL_GENERATOR_C_IMPORT
-PyObject * std_msgs__msg__string__convert_to_py(void * raw_ros_message);
+#include "rosidl_runtime_c/string.h"
+#include "rosidl_runtime_c/string_functions.h"
+
 
 ROSIDL_GENERATOR_C_EXPORT
 bool custom_msg__msg__stryng__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -59,10 +58,14 @@ bool custom_msg__msg__stryng__convert_from_py(PyObject * _pymsg, void * _ros_mes
     if (!field) {
       return false;
     }
-    if (!std_msgs__msg__string__convert_from_py(field, &ros_message->message)) {
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
       Py_DECREF(field);
       return false;
     }
+    rosidl_runtime_c__String__assign(&ros_message->message, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
 
@@ -89,7 +92,10 @@ PyObject * custom_msg__msg__stryng__convert_to_py(void * raw_ros_message)
   custom_msg__msg__Stryng * ros_message = (custom_msg__msg__Stryng *)raw_ros_message;
   {  // message
     PyObject * field = NULL;
-    field = std_msgs__msg__string__convert_to_py(&ros_message->message);
+    field = PyUnicode_DecodeUTF8(
+      ros_message->message.data,
+      strlen(ros_message->message.data),
+      "replace");
     if (!field) {
       return NULL;
     }

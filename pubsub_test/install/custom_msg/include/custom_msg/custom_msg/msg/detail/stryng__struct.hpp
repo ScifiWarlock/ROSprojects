@@ -16,10 +16,6 @@
 #include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
-// Include directives for member types
-// Member 'message'
-#include "std_msgs/msg/detail/string__struct.hpp"
-
 #ifndef _WIN32
 # define DEPRECATED__custom_msg__msg__Stryng __attribute__((deprecated))
 #else
@@ -39,25 +35,32 @@ struct Stryng_
   using Type = Stryng_<ContainerAllocator>;
 
   explicit Stryng_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : message(_init)
   {
-    (void)_init;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->message = "";
+    }
   }
 
   explicit Stryng_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : message(_alloc, _init)
+  : message(_alloc)
   {
-    (void)_init;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->message = "";
+    }
   }
 
   // field types and members
   using _message_type =
-    std_msgs::msg::String_<ContainerAllocator>;
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _message_type message;
 
   // setters for named parameter idiom
   Type & set__message(
-    const std_msgs::msg::String_<ContainerAllocator> & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
     this->message = _arg;
     return *this;

@@ -1,0 +1,368 @@
+[0.000000] (-) TimerEvent: {}
+[0.000388] (custom_msg) JobQueued: {'identifier': 'custom_msg', 'dependencies': OrderedDict()}
+[0.000501] (loc_pubsub) JobQueued: {'identifier': 'loc_pubsub', 'dependencies': OrderedDict()}
+[0.000538] (custom_msg) JobStarted: {'identifier': 'custom_msg'}
+[0.017627] (loc_pubsub) JobStarted: {'identifier': 'loc_pubsub'}
+[0.027230] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'cmake'}
+[0.030493] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'build'}
+[0.032041] (custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg', '--', '-j22', '-l22'], 'cwd': '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakmo'), ('GIT_ASKPASS', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rakmo'), ('OLDPWD', '/home/rakmo/ROSprojects'), ('TERM_PROGRAM_VERSION', '1.109.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8c5ef713-4b2c-46d3-acfd-1e3397acca24.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rakmo'), ('NAME', 'MacbookPro'), ('WSL_INTEROP', '/run/WSL/47640_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Ruby40-x64/bin:/mnt/c/Users/rakmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rakmo/AppData/Local/Programs/Git/cmd:/mnt/c/Users/rakmo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/rakmo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fd63f4355b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.040758] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'cmake'}
+[0.045727] (loc_pubsub) JobProgress: {'identifier': 'loc_pubsub', 'progress': 'build'}
+[0.046041] (loc_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub', '--', '-j22', '-l22'], 'cwd': '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakmo'), ('GIT_ASKPASS', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rakmo'), ('OLDPWD', '/home/rakmo/ROSprojects'), ('TERM_PROGRAM_VERSION', '1.109.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8c5ef713-4b2c-46d3-acfd-1e3397acca24.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rakmo'), ('NAME', 'MacbookPro'), ('WSL_INTEROP', '/run/WSL/47640_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Ruby40-x64/bin:/mnt/c/Users/rakmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rakmo/AppData/Local/Programs/Git/cmd:/mnt/c/Users/rakmo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/rakmo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fd63f4355b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098316] (-) TimerEvent: {}
+[0.100293] (custom_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.118746] (loc_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target transmitter\x1b[0m\n'}
+[0.119594] (loc_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stat_listener\x1b[0m\n'}
+[0.140906] (loc_pubsub) StdoutLine: {'line': b'[ 33%] Built target loc_listener\n'}
+[0.146420] (loc_pubsub) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o\x1b[0m\n'}
+[0.146686] (loc_pubsub) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o\x1b[0m\n'}
+[0.198527] (-) TimerEvent: {}
+[0.299170] (-) TimerEvent: {}
+[0.336821] (custom_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.399580] (-) TimerEvent: {}
+[0.501275] (-) TimerEvent: {}
+[0.601991] (-) TimerEvent: {}
+[0.605203] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.610853] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.627488] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.651420] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.677211] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.703196] (-) TimerEvent: {}
+[0.724174] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.807114] (-) TimerEvent: {}
+[0.907952] (-) TimerEvent: {}
+[1.008990] (-) TimerEvent: {}
+[1.104313] (custom_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.109288] (-) TimerEvent: {}
+[1.210045] (-) TimerEvent: {}
+[1.310853] (-) TimerEvent: {}
+[1.415246] (-) TimerEvent: {}
+[1.516396] (-) TimerEvent: {}
+[1.597448] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.617408] (-) TimerEvent: {}
+[1.718216] (-) TimerEvent: {}
+[1.787589] (custom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.819957] (-) TimerEvent: {}
+[1.828006] (custom_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.862876] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.863214] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.863297] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.922721] (-) TimerEvent: {}
+[2.004328] (custom_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.023716] (-) TimerEvent: {}
+[2.051098] (custom_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.053539] (custom_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.060478] (custom_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.124209] (-) TimerEvent: {}
+[2.172889] (custom_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.212666] (custom_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/rakmo/ROSprojects/pubsub_test/build/custom_msg\n'}
+[2.224898] (-) TimerEvent: {}
+[2.248929] (custom_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.266398] (custom_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[2.271943] (custom_msg) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.292022] (custom_msg) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_custom_msg\n'}
+[2.325345] (-) TimerEvent: {}
+[2.426229] (-) TimerEvent: {}
+[2.527076] (-) TimerEvent: {}
+[2.622888] (custom_msg) StdoutLine: {'line': b'[  9%] Built target custom_msg__rs\n'}
+[2.627288] (-) TimerEvent: {}
+[2.637838] (custom_msg) StdoutLine: {'line': b'[  9%] Built target custom_msg__cpp\n'}
+[2.652510] (custom_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.654081] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_generator_c\x1b[0m\n'}
+[2.654518] (custom_msg) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.655325] (custom_msg) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.672814] (custom_msg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/msg/detail/stryng__functions.c.o\x1b[0m\n'}
+[2.708368] (custom_msg) StdoutLine: {'line': b'running egg_info\n'}
+[2.710053] (custom_msg) StdoutLine: {'line': b'writing custom_msg.egg-info/PKG-INFO\n'}
+[2.710629] (custom_msg) StdoutLine: {'line': b'writing dependency_links to custom_msg.egg-info/dependency_links.txt\n'}
+[2.711031] (custom_msg) StdoutLine: {'line': b'writing top-level names to custom_msg.egg-info/top_level.txt\n'}
+[2.717479] (custom_msg) StdoutLine: {'line': b"reading manifest file 'custom_msg.egg-info/SOURCES.txt'\n"}
+[2.719665] (custom_msg) StdoutLine: {'line': b"writing manifest file 'custom_msg.egg-info/SOURCES.txt'\n"}
+[2.727505] (-) TimerEvent: {}
+[2.765177] (custom_msg) StdoutLine: {'line': b'[ 21%] Built target ament_cmake_python_build_custom_msg_egg\n'}
+[2.766027] (custom_msg) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_generator_c.so\x1b[0m\n'}
+[2.827859] (-) TimerEvent: {}
+[2.929318] (-) TimerEvent: {}
+[2.949606] (custom_msg) StdoutLine: {'line': b'[ 25%] Built target custom_msg__rosidl_generator_c\n'}
+[2.963899] (custom_msg) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.964497] (custom_msg) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.965736] (custom_msg) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.977904] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.993238] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.993704] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.995998] (custom_msg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/msg/stryng__type_support.cpp.o\x1b[0m\n'}
+[3.011195] (custom_msg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/msg/detail/stryng__type_support.cpp.o\x1b[0m\n'}
+[3.011913] (custom_msg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/msg/detail/dds_fastrtps/stryng__type_support.cpp.o\x1b[0m\n'}
+[3.029720] (-) TimerEvent: {}
+[3.130421] (-) TimerEvent: {}
+[3.235854] (-) TimerEvent: {}
+[3.281953] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_c\x1b[0m\n'}
+[3.297090] (custom_msg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/msg/stryng__type_support.cpp.o\x1b[0m\n'}
+[3.310447] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.319773] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.327673] (custom_msg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/msg/detail/stryng__type_support.c.o\x1b[0m\n'}
+[3.336142] (-) TimerEvent: {}
+[3.338837] (custom_msg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/msg/detail/stryng__type_support_c.cpp.o\x1b[0m\n'}
+[3.356009] (custom_msg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.385867] (custom_msg) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.436528] (-) TimerEvent: {}
+[3.482582] (custom_msg) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.534660] (custom_msg) StdoutLine: {'line': b'[ 62%] Built target custom_msg__rosidl_typesupport_c\n'}
+[3.536704] (-) TimerEvent: {}
+[3.537790] (custom_msg) StdoutLine: {'line': b'[ 62%] Built target custom_msg__rosidl_typesupport_introspection_c\n'}
+[3.638653] (-) TimerEvent: {}
+[3.651963] (custom_msg) StdoutLine: {'line': b'[ 62%] Built target custom_msg__rosidl_typesupport_cpp\n'}
+[3.690151] (custom_msg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.710722] (custom_msg) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.738931] (-) TimerEvent: {}
+[3.839682] (-) TimerEvent: {}
+[3.912151] (custom_msg) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.926779] (custom_msg) StdoutLine: {'line': b'[ 71%] Built target custom_msg__rosidl_typesupport_introspection_cpp\n'}
+[3.940041] (-) TimerEvent: {}
+[3.951875] (custom_msg) StdoutLine: {'line': b'[ 71%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[4.041958] (-) TimerEvent: {}
+[4.125889] (custom_msg) StdoutLine: {'line': b'[ 71%] Built target custom_msg__rosidl_typesupport_fastrtps_c\n'}
+[4.142203] (-) TimerEvent: {}
+[4.151728] (custom_msg) StdoutLine: {'line': b'[ 71%] Built target custom_msg\n'}
+[4.180213] (custom_msg) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.243927] (-) TimerEvent: {}
+[4.349284] (-) TimerEvent: {}
+[4.381437] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LocationPublisher::callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.381760] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:33:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kcustom_msg::msg::Stryng_<std::allocator<void> >::_message_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.381857] (loc_pubsub) StderrLine: {'line': b'   33 |             message_flight.message = "Drone is " + \x1b[01;31m\x1b[Kstat_param\x1b[m\x1b[K;\n'}
+[4.381918] (loc_pubsub) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.381971] (loc_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__struct.hpp:21\x1b[m\x1b[K,\n'}
+[4.382024] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/stryng.hpp:7\x1b[m\x1b[K,\n'}
+[4.382078] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:8\x1b[m\x1b[K:\n'}
+[4.382129] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:33:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(const std_msgs::msg::String_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.382179] (loc_pubsub) StderrLine: {'line': b'   33 | struct \x1b[01;36m\x1b[KString_\x1b[m\x1b[K\n'}
+[4.382227] (loc_pubsub) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.382277] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:33:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.382348] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:33:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(std_msgs::msg::String_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.382397] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:33:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.445471] (loc_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.445791] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.445858] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.445914] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.445970] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.446020] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.446070] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.446119] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.446165] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.446212] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.446272] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.446320] (loc_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/statusreceiver.cpp:3\x1b[m\x1b[K:\n'}
+[4.446367] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/statusreceiver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid StatSubscriber::callback(const Stryng&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.446416] (loc_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/statusreceiver.cpp:19:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst _message_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct std_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.446472] (loc_pubsub) StderrLine: {'line': b'   19 |             RCLCPP_INFO(this->get_logger(), "Drone stat: \'%s\'", msg.message.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[4.446522] (loc_pubsub) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.449539] (-) TimerEvent: {}
+[4.551853] (-) TimerEvent: {}
+[4.605024] (custom_msg) StdoutLine: {'line': b'[ 75%] Built target custom_msg__py\n'}
+[4.618869] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_generator_py\x1b[0m\n'}
+[4.636816] (custom_msg) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_py.dir/rosidl_generator_py/custom_msg/msg/_stryng_s.c.o\x1b[0m\n'}
+[4.652257] (-) TimerEvent: {}
+[4.753279] (-) TimerEvent: {}
+[4.780374] (custom_msg) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/libcustom_msg__rosidl_generator_py.so\x1b[0m\n'}
+[4.853977] (-) TimerEvent: {}
+[4.956120] (-) TimerEvent: {}
+[5.005882] (custom_msg) StdoutLine: {'line': b'[ 81%] Built target custom_msg__rosidl_generator_py\n'}
+[5.017437] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.018777] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.018987] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.036065] (custom_msg) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.036382] (custom_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.036762] (custom_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.057070] (-) TimerEvent: {}
+[5.157854] (-) TimerEvent: {}
+[5.173225] (custom_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.180761] (custom_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.193018] (custom_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.258136] (-) TimerEvent: {}
+[5.313174] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[5.316547] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.358442] (-) TimerEvent: {}
+[5.369074] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_c__pyext\n'}
+[5.388371] (custom_msg) CommandEnded: {'returncode': 0}
+[5.391296] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'install'}
+[5.403838] (custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg'], 'cwd': '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rakmo'), ('GIT_ASKPASS', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/rakmo'), ('OLDPWD', '/home/rakmo/ROSprojects'), ('TERM_PROGRAM_VERSION', '1.109.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8c5ef713-4b2c-46d3-acfd-1e3397acca24.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rakmo'), ('NAME', 'MacbookPro'), ('WSL_INTEROP', '/run/WSL/47640_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/rakmo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/rakmo/.vscode-server/bin/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Ruby40-x64/bin:/mnt/c/Users/rakmo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rakmo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rakmo/AppData/Local/Programs/Git/cmd:/mnt/c/Users/rakmo/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/rakmo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fd63f4355b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rakmo/ROSprojects/pubsub_test/build/custom_msg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.414053] (custom_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.414592] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/rosidl_interfaces/custom_msg\n'}
+[5.414924] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg\n'}
+[5.415214] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[5.415550] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.415944] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[5.416027] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__struct.h\n'}
+[5.416083] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.h\n'}
+[5.416134] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__functions.h\n'}
+[5.416180] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__functions.c\n'}
+[5.416227] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/stryng.h\n'}
+[5.416275] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/library_path.sh\n'}
+[5.416319] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/library_path.dsv\n'}
+[5.417338] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so\n'}
+[5.418126] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so" to ""\n'}
+[5.418420] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg\n'}
+[5.418513] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[5.418586] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.418653] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[5.418716] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__rosidl_typesupport_fastrtps_c.h\n'}
+[5.420330] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[5.420876] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.421850] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg\n'}
+[5.422269] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[5.422357] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[5.422413] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.hpp\n'}
+[5.422466] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__traits.hpp\n'}
+[5.422601] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__builder.hpp\n'}
+[5.422720] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__struct.hpp\n'}
+[5.422969] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/stryng.hpp\n'}
+[5.423054] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.423110] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg\n'}
+[5.423167] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[5.423218] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[5.423265] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/dds_fastrtps\n'}
+[5.423554] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.423791] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.424037] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.424470] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.424636] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg\n'}
+[5.424701] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[5.424754] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.424804] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[5.424853] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.c\n'}
+[5.424899] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__rosidl_typesupport_introspection_c.h\n'}
+[5.425156] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so\n'}
+[5.425504] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.426344] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so\n'}
+[5.426705] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so" to ""\n'}
+[5.427125] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg\n'}
+[5.427240] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg\n'}
+[5.427361] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail\n'}
+[5.427425] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__type_support.cpp\n'}
+[5.427479] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.428461] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[5.429127] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.429898] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so\n'}
+[5.430574] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[5.430713] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/pythonpath.sh\n'}
+[5.430792] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/pythonpath.dsv\n'}
+[5.431026] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info\n'}
+[5.431380] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.431858] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.432025] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.432129] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.432530] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg\n'}
+[5.432863] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/libcustom_msg__rosidl_generator_py.so\n'}
+[5.433162] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.433242] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c\n'}
+[5.433313] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/__init__.py\n'}
+[5.433601] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/_custom_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.433956] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg\n'}
+[5.434182] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/__init__.py\n'}
+[5.434328] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/_stryng_s.c\n'}
+[5.434492] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/_stryng.py\n'}
+[5.434577] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.434891] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.435089] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.458627] (-) TimerEvent: {}
+[5.489130] (custom_msg) StdoutLine: {'line': b"Listing '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg'...\n"}
+[5.489579] (custom_msg) StdoutLine: {'line': b"Compiling '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/__init__.py'...\n"}
+[5.489736] (custom_msg) StdoutLine: {'line': b"Listing '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg'...\n"}
+[5.489871] (custom_msg) StdoutLine: {'line': b"Compiling '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/__init__.py'...\n"}
+[5.489947] (custom_msg) StdoutLine: {'line': b"Compiling '/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/msg/_stryng.py'...\n"}
+[5.495472] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.496112] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.496446] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.496617] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.496987] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.497050] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/local/lib/python3.10/dist-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.497502] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_py.so\n'}
+[5.498081] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/lib/libcustom_msg__rosidl_generator_py.so" to ""\n'}
+[5.498371] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/rust_packages/custom_msg\n'}
+[5.498674] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust\n'}
+[5.498938] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src\n'}
+[5.499194] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src/msg\n'}
+[5.499291] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src/msg/rmw.rs\n'}
+[5.499634] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src/msg.rs\n'}
+[5.499861] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/src/lib.rs\n'}
+[5.500118] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/build.rs\n'}
+[5.500347] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/rust/Cargo.toml\n'}
+[5.500731] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/msg/Stryng.idl\n'}
+[5.501005] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/msg/Stryng.msg\n'}
+[5.501262] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/package_run_dependencies/custom_msg\n'}
+[5.501572] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/parent_prefix_path/custom_msg\n'}
+[5.501879] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/ament_prefix_path.sh\n'}
+[5.502499] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/ament_prefix_path.dsv\n'}
+[5.502675] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/path.sh\n'}
+[5.502743] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/environment/path.dsv\n'}
+[5.502796] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/local_setup.bash\n'}
+[5.502849] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/local_setup.sh\n'}
+[5.502895] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/local_setup.zsh\n'}
+[5.503049] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/local_setup.dsv\n'}
+[5.503167] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/package.dsv\n'}
+[5.503269] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/ament_index/resource_index/packages/custom_msg\n'}
+[5.503374] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_cExport.cmake\n'}
+[5.503587] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.503652] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.503702] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.503751] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_cppExport.cmake\n'}
+[5.503987] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.504214] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.504536] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.504799] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.505243] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport.cmake\n'}
+[5.505444] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.505999] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.506115] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.506653] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport.cmake\n'}
+[5.506861] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.507452] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_pyExport.cmake\n'}
+[5.507723] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/export_custom_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.508168] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[5.508397] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.508790] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.508946] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.509050] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.509128] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.509197] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.509260] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msgConfig.cmake\n'}
+[5.509327] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/cmake/custom_msgConfig-version.cmake\n'}
+[5.509414] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/rakmo/ROSprojects/pubsub_test/install/custom_msg/share/custom_msg/package.xml\n'}
+[5.513536] (custom_msg) CommandEnded: {'returncode': 0}
+[5.560099] (-) TimerEvent: {}
+[5.580909] (custom_msg) JobEnded: {'identifier': 'custom_msg', 'rc': 0}
+[5.664138] (-) TimerEvent: {}
+[5.766862] (-) TimerEvent: {}
+[5.872329] (-) TimerEvent: {}
+[5.973048] (-) TimerEvent: {}
+[6.049460] (loc_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/transmitter.dir/build.make:76: CMakeFiles/transmitter.dir/src/locsender.cpp.o] Error 1\n'}
+[6.050219] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/transmitter.dir/all] Error 2\n'}
+[6.050329] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.073419] (-) TimerEvent: {}
+[6.176556] (-) TimerEvent: {}
+[6.281897] (-) TimerEvent: {}
+[6.387283] (-) TimerEvent: {}
+[6.492810] (-) TimerEvent: {}
+[6.598139] (-) TimerEvent: {}
+[6.700874] (-) TimerEvent: {}
+[6.804831] (-) TimerEvent: {}
+[6.907929] (-) TimerEvent: {}
+[7.013123] (-) TimerEvent: {}
+[7.116035] (-) TimerEvent: {}
+[7.221323] (-) TimerEvent: {}
+[7.326091] (-) TimerEvent: {}
+[7.431107] (-) TimerEvent: {}
+[7.533981] (-) TimerEvent: {}
+[7.639159] (-) TimerEvent: {}
+[7.744220] (-) TimerEvent: {}
+[7.849397] (-) TimerEvent: {}
+[7.954455] (-) TimerEvent: {}
+[8.055284] (-) TimerEvent: {}
+[8.159218] (-) TimerEvent: {}
+[8.263343] (-) TimerEvent: {}
+[8.316407] (loc_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stat_listener.dir/build.make:76: CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o] Error 1\n'}
+[8.317255] (loc_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stat_listener.dir/all] Error 2\n'}
+[8.317658] (loc_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.319890] (loc_pubsub) CommandEnded: {'returncode': 2}
+[8.331862] (loc_pubsub) JobEnded: {'identifier': 'loc_pubsub', 'rc': 2}
+[8.334342] (-) EventReactorShutdown: {}

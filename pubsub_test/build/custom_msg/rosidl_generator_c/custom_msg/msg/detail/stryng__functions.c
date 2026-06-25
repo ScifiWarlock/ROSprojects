@@ -13,7 +13,7 @@
 
 // Include directives for member types
 // Member `message`
-#include "std_msgs/msg/detail/string__functions.h"
+#include "rosidl_runtime_c/string_functions.h"
 
 bool
 custom_msg__msg__Stryng__init(custom_msg__msg__Stryng * msg)
@@ -22,7 +22,7 @@ custom_msg__msg__Stryng__init(custom_msg__msg__Stryng * msg)
     return false;
   }
   // message
-  if (!std_msgs__msg__String__init(&msg->message)) {
+  if (!rosidl_runtime_c__String__init(&msg->message)) {
     custom_msg__msg__Stryng__fini(msg);
     return false;
   }
@@ -36,7 +36,7 @@ custom_msg__msg__Stryng__fini(custom_msg__msg__Stryng * msg)
     return;
   }
   // message
-  std_msgs__msg__String__fini(&msg->message);
+  rosidl_runtime_c__String__fini(&msg->message);
 }
 
 bool
@@ -46,7 +46,7 @@ custom_msg__msg__Stryng__are_equal(const custom_msg__msg__Stryng * lhs, const cu
     return false;
   }
   // message
-  if (!std_msgs__msg__String__are_equal(
+  if (!rosidl_runtime_c__String__are_equal(
       &(lhs->message), &(rhs->message)))
   {
     return false;
@@ -63,7 +63,7 @@ custom_msg__msg__Stryng__copy(
     return false;
   }
   // message
-  if (!std_msgs__msg__String__copy(
+  if (!rosidl_runtime_c__String__copy(
       &(input->message), &(output->message)))
   {
     return false;

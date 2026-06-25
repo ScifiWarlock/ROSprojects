@@ -14,10 +14,6 @@
 #include "custom_msg/msg/detail/stryng__struct.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 
-// Include directives for member types
-// Member 'message'
-#include "std_msgs/msg/detail/string__traits.hpp"
-
 namespace custom_msg
 {
 
@@ -32,7 +28,7 @@ inline void to_flow_style_yaml(
   // member: message
   {
     out << "message: ";
-    to_flow_style_yaml(msg.message, out);
+    rosidl_generator_traits::value_to_yaml(msg.message, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -46,8 +42,9 @@ inline void to_block_style_yaml(
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "message:\n";
-    to_block_style_yaml(msg.message, out, indentation + 2);
+    out << "message: ";
+    rosidl_generator_traits::value_to_yaml(msg.message, out);
+    out << "\n";
   }
 }  // NOLINT(readability/fn_size)
 
@@ -97,11 +94,11 @@ inline const char * name<custom_msg::msg::Stryng>()
 
 template<>
 struct has_fixed_size<custom_msg::msg::Stryng>
-  : std::integral_constant<bool, has_fixed_size<std_msgs::msg::String>::value> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<custom_msg::msg::Stryng>
-  : std::integral_constant<bool, has_bounded_size<std_msgs::msg::String>::value> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<custom_msg::msg::Stryng>

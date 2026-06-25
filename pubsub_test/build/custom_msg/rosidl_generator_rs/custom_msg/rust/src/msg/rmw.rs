@@ -28,7 +28,7 @@ pub struct Stryng {
 
     // This member is not documented.
     #[allow(missing_docs)]
-    pub message: std_msgs::msg::rmw::String,
+    pub message: rosidl_runtime_rs::String,
 
 }
 

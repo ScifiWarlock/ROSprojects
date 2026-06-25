@@ -1,0 +1,42 @@
+[0.033s] Invoking command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target transmitter[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target stat_listener[0m
+[0.123s] [ 33%] Built target loc_listener
+[0.129s] [ 66%] [32mBuilding CXX object CMakeFiles/transmitter.dir/src/locsender.cpp.o[0m
+[0.129s] [ 66%] [32mBuilding CXX object CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o[0m
+[4.364s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:[m[K In member function ‘[01m[Kvoid LocationPublisher::callback()[m[K’:
+[4.364s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:33:52:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcustom_msg::msg::Stryng_<std::allocator<void> >::_message_type[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’} and ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’)
+[4.364s]    33 |             message_flight.message = "Drone is " + [01;31m[Kstat_param[m[K;
+[4.364s]       |                                                    [01;31m[K^~~~~~~~~~[m[K
+[4.364s] In file included from [01m[K/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/detail/stryng__struct.hpp:21[m[K,
+[4.364s]                  from [01m[K/home/rakmo/ROSprojects/pubsub_test/install/custom_msg/include/custom_msg/custom_msg/msg/stryng.hpp:7[m[K,
+[4.364s]                  from [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/locsender.cpp:8[m[K:
+[4.364s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:33:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(const std_msgs::msg::String_<std::allocator<void> >&)[m[K’
+[4.364s]    33 | struct [01;36m[KString_[m[K
+[4.364s]       |        [01;36m[K^~~~~~~[m[K
+[4.364s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:33:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >&[m[K’
+[4.365s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:33:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >& std_msgs::msg::String_<std::allocator<void> >::operator=(std_msgs::msg::String_<std::allocator<void> >&&)[m[K’
+[4.365s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:33:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >&&[m[K’
+[4.428s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.428s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.429s]                  from [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/statusreceiver.cpp:3[m[K:
+[4.429s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/statusreceiver.cpp:[m[K In member function ‘[01m[Kvoid StatSubscriber::callback(const Stryng&) const[m[K’:
+[4.429s] [01m[K/home/rakmo/ROSprojects/pubsub_test/src/loc_pubsub/src/statusreceiver.cpp:19:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _message_type[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kc_str[m[K’
+[4.429s]    19 |             RCLCPP_INFO(this->get_logger(), "Drone stat: '%s'", msg.message.[01;31m[Kc_str[m[K());
+[4.429s]       |                                                                             [01;31m[K^~~~~[m[K
+[6.032s] gmake[2]: *** [CMakeFiles/transmitter.dir/build.make:76: CMakeFiles/transmitter.dir/src/locsender.cpp.o] Error 1
+[6.032s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/transmitter.dir/all] Error 2
+[6.033s] gmake[1]: *** Waiting for unfinished jobs....
+[8.299s] gmake[2]: *** [CMakeFiles/stat_listener.dir/build.make:76: CMakeFiles/stat_listener.dir/src/statusreceiver.cpp.o] Error 1
+[8.300s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/stat_listener.dir/all] Error 2
+[8.300s] gmake: *** [Makefile:146: all] Error 2
+[8.302s] Invoked command in '/home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/pubsub_test/build/loc_pubsub -- -j22 -l22
