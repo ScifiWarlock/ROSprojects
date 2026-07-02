@@ -1,0 +1,20 @@
+[0.031s] Invoking command in '/home/rakmo/ROSprojects/URDFtests/build/robot_descr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/URDFtests/build/robot_descr -- -j22 -l22
+[0.144s] Invoked command in '/home/rakmo/ROSprojects/URDFtests/build/robot_descr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/URDFtests/build/robot_descr -- -j22 -l22
+[0.159s] Invoking command in '/home/rakmo/ROSprojects/URDFtests/build/robot_descr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/URDFtests/build/robot_descr
+[0.173s] -- Install configuration: ""
+[0.173s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/ament_index/resource_index/package_run_dependencies/robot_descr
+[0.173s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/ament_index/resource_index/parent_prefix_path/robot_descr
+[0.173s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/environment/ament_prefix_path.sh
+[0.173s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/environment/ament_prefix_path.dsv
+[0.173s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/environment/path.sh
+[0.173s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/environment/path.dsv
+[0.173s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/local_setup.bash
+[0.174s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/local_setup.sh
+[0.176s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/local_setup.zsh
+[0.176s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/local_setup.dsv
+[0.176s] -- Installing: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/package.dsv
+[0.176s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/ament_index/resource_index/packages/robot_descr
+[0.176s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/cmake/robot_descrConfig.cmake
+[0.176s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/cmake/robot_descrConfig-version.cmake
+[0.176s] -- Up-to-date: /home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/package.xml
+[0.179s] Invoked command in '/home/rakmo/ROSprojects/URDFtests/build/robot_descr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/URDFtests/build/robot_descr

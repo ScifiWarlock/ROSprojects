@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<robot name="myfirst">
+    <link name="drone_base">
+        <visual>
+            <geometry>
+                <cylinder length="0.05" radius="0.3"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="drone_leg_link_LL">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 -0.2"/>
+            <geometry>
+                <cylinder length="0.4" radius="0.02"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="drone_leg_link_RL">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 -0.2"/>
+            <geometry>
+                <cylinder length="0.4" radius="0.02"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="drone_leg_link_LR">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 -0.2"/>
+            <geometry>
+                <cylinder length="0.4" radius="0.02"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="drone_leg_link_RR">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 -0.2"/>
+            <geometry>
+                <cylinder length="0.4" radius="0.02"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="drone_lding_gear_L">
+        <visual>
+            <origin xyz = "0 0 -0.275"/>
+            <geometry>
+                <cylinder length="0.6" radius="0.03"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="drone_lding_gear_R">
+        <visual>
+            <origin xyz = "0 0 -0.275"/>
+            <geometry>
+                <cylinder length="0.6" radius="0.03"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="prop_handle_LL">
+        <visual>
+            <origin xyz = "0 0 -0.3"/>
+            <geometry>
+                <cylinder length="0.6" radius="0.03"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="prop_handle_LR">
+        <visual>
+            <origin xyz = "0 0 -0.3"/>
+            <geometry>
+                <cylinder length="0.6" radius="0.03"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="prop_handle_RL">
+        <visual>
+            <origin xyz = "0 0 -0.3"/>
+            <geometry>
+                <cylinder length="0.6" radius="0.03"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="prop_handle_RR">
+        <visual>
+            <origin xyz = "0 0 -0.3"/>
+            <geometry>
+                <cylinder length="0.6" radius="0.03"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="prop_LL">
+        <visual>
+            <geometry>
+                <box size="0.002 0.02 0.5"/>
+            </geometry>
+        </visual>
+    </link>
+
+    
+    <link name="prop_RL">
+        <visual>
+            <geometry>
+                <box size="0.002 0.02 0.5"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="prop_LR">
+        <visual>
+            <geometry>
+                <box size="0.002 0.02 0.5"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="prop_RR">
+        <visual>
+            <geometry>
+                <box size="0.002 0.02 0.5"/>
+            </geometry>
+        </visual>
+    </link>
+
+
+    <joint name="left_left_leg_joint" type="fixed">
+        <parent link="drone_base"/>
+        <child link="drone_leg_link_LL"/>
+        <origin rpy="0 -0.349066 0" xyz="0.1414 0.1414 -0.025"/>
+    </joint>
+
+    <joint name="prop_handle_LL_joint" type="fixed">
+        <parent link="drone_base"/>
+        <child link="prop_handle_LL"/>
+        <origin rpy="2.356 1.5707 0" xyz="0.2121 0.2121 0"/>
+    </joint>
+
+    <joint name="prop_LL_joint" type="continuous">
+        <axis rpy="0 0 0" xyz = "1 0 0"/>
+        <parent link="prop_handle_LL"/>
+        <child link="prop_LL"/>
+        <origin rpy = "1.5707 0 0" xyz="-0.03 0 -0.6"/>
+    </joint>
+
+    <joint name="left_skid_joint" type="fixed">
+        <parent link="drone_leg_link_LL"/>
+        <child link="drone_lding_gear_L"/>
+        <origin xyz="0 0 -0.4" rpy="0 1.9198 0"/>
+    </joint>
+
+    <joint name="right_left_leg_joint" type="fixed">
+        <parent link="drone_base"/>
+        <child link="drone_leg_link_RL"/>
+        <origin rpy="0 -0.349066 0" xyz="0.1414 -0.1414 -0.025"/>
+    </joint>
+
+     <joint name="prop_handle_RL_joint" type="fixed">
+        <parent link="drone_base"/>
+        <child link="prop_handle_RL"/>
+        <origin rpy="-2.356 1.5707 0" xyz="0.2121 -0.2121 0"/>
+    </joint>
+
+    <joint name="prop_RL_joint" type="continuous">
+        <axis rpy="0 0 0" xyz = "-1 0 0"/>
+        <parent link="prop_handle_RL"/>
+        <child link="prop_RL"/>
+        <origin rpy = "1.5707 0 0" xyz="-0.03 0 -0.6"/>
+    </joint>
+
+    <joint name="right_right_leg_joint" type="fixed">
+        <parent link="drone_base"/>
+        <child link="drone_leg_link_RR"/>
+        <origin rpy="0 0.349066 0" xyz="-0.1414 -0.1414 -0.025"/>
+    </joint>
+
+     <joint name="prop_handle_RR_joint" type="fixed">
+        <parent link="drone_base"/>
+        <child link="prop_handle_RR"/>
+        <origin rpy="-2.356 -1.5707 0" xyz="-0.2121 -0.2121 0"/>
+    </joint>
+
+    <joint name="prop_RR_joint" type="continuous">
+        <axis rpy="0 0 0" xyz = "-1 0 0"/>
+        <parent link="prop_handle_RR"/>
+        <child link="prop_RR"/>
+        <origin rpy = "1.5707 0 0" xyz="0.03 0 -0.6"/>
+    </joint>
+
+    <joint name="right_skid_joint" type="fixed">
+        <parent link="drone_leg_link_RL"/>
+        <child link="drone_lding_gear_R"/>
+        <origin xyz="0 0 -0.4" rpy="0 1.9198 0"/>
+    </joint>
+
+    <joint name="left_right_leg_joint" type="fixed">
+        <parent link="drone_base"/>
+        <child link="drone_leg_link_LR"/>
+        <origin rpy="0 0.349066 0" xyz="-0.1414 0.1414 -0.025"/>
+    </joint>
+
+     <joint name="prop_handle_LR_joint" type="fixed">
+        <parent link="drone_base"/>
+        <child link="prop_handle_LR"/>
+        <origin rpy="2.356 -1.5707 0" xyz="-0.2121 0.2121 0"/>
+    </joint>
+
+    <joint name="prop_LR_joint" type="continuous">
+        <axis rpy="0 0 0" xyz = "1 0 0"/>
+        <parent link="prop_handle_LR"/>
+        <child link="prop_LR"/>
+        <origin rpy = "1.5707 0 0" xyz="0.03 0 -0.6"/>
+    </joint>
+</robot>

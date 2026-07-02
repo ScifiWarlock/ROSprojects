@@ -1,0 +1,4 @@
+Invoking command in '/home/rakmo/ROSprojects/URDFtests/build/robot_descr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/URDFtests/build/robot_descr -- -j22 -l22
+Invoked command in '/home/rakmo/ROSprojects/URDFtests/build/robot_descr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rakmo/ROSprojects/URDFtests/build/robot_descr -- -j22 -l22
+Invoking command in '/home/rakmo/ROSprojects/URDFtests/build/robot_descr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/URDFtests/build/robot_descr
+Invoked command in '/home/rakmo/ROSprojects/URDFtests/build/robot_descr' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rakmo/ROSprojects/URDFtests/build/robot_descr

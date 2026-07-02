@@ -1,0 +1,15 @@
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/ament_index/resource_index/package_run_dependencies/robot_descr
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/ament_index/resource_index/parent_prefix_path/robot_descr
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/environment/ament_prefix_path.sh
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/environment/ament_prefix_path.dsv
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/environment/path.sh
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/environment/path.dsv
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/local_setup.bash
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/local_setup.sh
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/local_setup.zsh
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/local_setup.dsv
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/package.dsv
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/ament_index/resource_index/packages/robot_descr
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/cmake/robot_descrConfig.cmake
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/cmake/robot_descrConfig-version.cmake
+/home/rakmo/ROSprojects/URDFtests/install/robot_descr/share/robot_descr/package.xml
