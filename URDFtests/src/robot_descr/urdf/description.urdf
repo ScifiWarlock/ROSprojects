@@ -5,6 +5,9 @@
                 <geometry>
                     <cylinder length="0.05" radius="0.3"/>
                 </geometry>
+                 <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
         </visual>
         <collision>
                 <geometry>
@@ -19,6 +22,9 @@
                 <geometry>
                     <cylinder length="0.4" radius="0.02"/>
                 </geometry>
+                 <material name="black">
+                    <color rgba="0 0 0 1"/>
+                </material>
         </visual>
         <collision>
                 <geometry>
@@ -33,6 +39,9 @@
                 <geometry>
                     <cylinder length="0.4" radius="0.02"/>
                 </geometry>
+                 <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
         </visual>
         <collision>
                 <geometry>
@@ -47,6 +56,9 @@
                 <geometry>
                     <cylinder length="0.4" radius="0.02"/>
                 </geometry>
+                 <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
         </visual>
         <collision>
                 <geometry>
@@ -61,6 +73,9 @@
                 <geometry>
                     <cylinder length="0.4" radius="0.02"/>
                 </geometry>
+                 <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
         </visual>
         <collision>
                 <geometry>
@@ -75,6 +90,9 @@
                 <geometry>
                     <cylinder length="0.6" radius="0.03"/>
                 </geometry>
+                 <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
         </visual>
         <collision>
                 <geometry>
@@ -89,6 +107,9 @@
                 <geometry>
                     <cylinder length="0.6" radius="0.03"/>
                 </geometry>
+                 <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
         </visual>
         <collision>
                 <geometry>
@@ -103,6 +124,9 @@
                 <geometry>
                     <cylinder length="0.6" radius="0.03"/>
                 </geometry>
+                 <material name="gray">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
         </visual>
         <collision>
                 <geometry>
@@ -117,6 +141,9 @@
             <geometry>
                 <cylinder length="0.6" radius="0.03"/>
             </geometry>
+            <material name="gray">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
         </visual>
         <collision>
             <geometry>
@@ -131,6 +158,9 @@
             <geometry>
                 <cylinder length="0.6" radius="0.03"/>
             </geometry>
+            <material name="gray">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
         </visual>
         <collision>
             <geometry>
@@ -145,6 +175,9 @@
             <geometry>
                 <cylinder length="0.6" radius="0.03"/>
             </geometry>
+            <material name="gray">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
         </visual>
         <collision>
             <geometry>
