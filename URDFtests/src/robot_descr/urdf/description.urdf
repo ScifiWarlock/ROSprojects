@@ -2,73 +2,113 @@
 <robot name="myfirst">
     <link name="drone_base">
         <visual>
-            <geometry>
-                <cylinder length="0.05" radius="0.3"/>
-            </geometry>
+                <geometry>
+                    <cylinder length="0.05" radius="0.3"/>
+                </geometry>
         </visual>
+        <collision>
+                <geometry>
+                    <cylinder length="0.05" radius="0.3"/>
+                </geometry>
+            </collision>
     </link>
 
     <link name="drone_leg_link_LL">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 -0.2"/>
-            <geometry>
-                <cylinder length="0.4" radius="0.02"/>
-            </geometry>
+                <geometry>
+                    <cylinder length="0.4" radius="0.02"/>
+                </geometry>
         </visual>
+        <collision>
+                <geometry>
+                    <cylinder length="0.4" radius="0.02"/>
+                </geometry>
+            </collision>
     </link>
 
     <link name="drone_leg_link_RL">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 -0.2"/>
-            <geometry>
-                <cylinder length="0.4" radius="0.02"/>
-            </geometry>
+                <geometry>
+                    <cylinder length="0.4" radius="0.02"/>
+                </geometry>
         </visual>
+        <collision>
+                <geometry>
+                    <cylinder length="0.4" radius="0.02"/>
+                </geometry>
+            </collision>
     </link>
 
     <link name="drone_leg_link_LR">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 -0.2"/>
-            <geometry>
-                <cylinder length="0.4" radius="0.02"/>
-            </geometry>
+                <geometry>
+                    <cylinder length="0.4" radius="0.02"/>
+                </geometry>
         </visual>
+        <collision>
+                <geometry>
+                    <cylinder length="0.4" radius="0.02"/>
+                </geometry>
+            </collision>
     </link>
 
     <link name="drone_leg_link_RR">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 -0.2"/>
-            <geometry>
-                <cylinder length="0.4" radius="0.02"/>
-            </geometry>
+                <geometry>
+                    <cylinder length="0.4" radius="0.02"/>
+                </geometry>
         </visual>
+        <collision>
+                <geometry>
+                    <cylinder length="0.4" radius="0.02"/>
+                </geometry>
+            </collision>
     </link>
 
     <link name="drone_lding_gear_L">
         <visual>
             <origin xyz = "0 0 -0.275"/>
-            <geometry>
-                <cylinder length="0.6" radius="0.03"/>
-            </geometry>
+                <geometry>
+                    <cylinder length="0.6" radius="0.03"/>
+                </geometry>
         </visual>
+        <collision>
+                <geometry>
+                    <cylinder length="0.6" radius="0.03"/>
+                </geometry>
+            </collision>
     </link>
 
     <link name="drone_lding_gear_R">
         <visual>
             <origin xyz = "0 0 -0.275"/>
-            <geometry>
-                <cylinder length="0.6" radius="0.03"/>
-            </geometry>
+                <geometry>
+                    <cylinder length="0.6" radius="0.03"/>
+                </geometry>
         </visual>
+        <collision>
+                <geometry>
+                    <cylinder length="0.6" radius="0.03"/>
+                </geometry>
+            </collision>
     </link>
 
     <link name="prop_handle_LL">
         <visual>
             <origin xyz = "0 0 -0.3"/>
-            <geometry>
-                <cylinder length="0.6" radius="0.03"/>
-            </geometry>
+                <geometry>
+                    <cylinder length="0.6" radius="0.03"/>
+                </geometry>
         </visual>
+        <collision>
+                <geometry>
+                    <cylinder length="0.6" radius="0.03"/>
+                </geometry>
+            </collision>
     </link>
 
     <link name="prop_handle_LR">
@@ -78,6 +118,11 @@
                 <cylinder length="0.6" radius="0.03"/>
             </geometry>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.6" radius="0.03"/>
+            </geometry>
+            </collision>
     </link>
 
     <link name="prop_handle_RL">
@@ -87,6 +132,11 @@
                 <cylinder length="0.6" radius="0.03"/>
             </geometry>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.6" radius="0.03"/>
+            </geometry>
+            </collision>
     </link>
 
     <link name="prop_handle_RR">
@@ -96,6 +146,11 @@
                 <cylinder length="0.6" radius="0.03"/>
             </geometry>
         </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.6" radius="0.03"/>
+            </geometry>
+            </collision>
     </link>
 
     <link name="prop_LL">
@@ -104,6 +159,11 @@
                 <box size="0.002 0.02 0.5"/>
             </geometry>
         </visual>
+        <collision>
+            <geometry>
+                <box size="0.002 0.02 0.5"/>
+            </geometry>
+            </collision>
     </link>
 
     
@@ -113,6 +173,11 @@
                 <box size="0.002 0.02 0.5"/>
             </geometry>
         </visual>
+        <collision>
+            <geometry>
+                <box size="0.002 0.02 0.5"/>
+            </geometry>
+            </collision>
     </link>
 
     <link name="prop_LR">
@@ -121,6 +186,11 @@
                 <box size="0.002 0.02 0.5"/>
             </geometry>
         </visual>
+        <collision>
+            <geometry>
+                <box size="0.002 0.02 0.5"/>
+            </geometry>
+            </collision>
     </link>
 
     <link name="prop_RR">
@@ -129,6 +199,11 @@
                 <box size="0.002 0.02 0.5"/>
             </geometry>
         </visual>
+         <collision>
+            <geometry>
+                <box size="0.002 0.02 0.5"/>
+            </geometry>
+            </collision>
     </link>
 
 
